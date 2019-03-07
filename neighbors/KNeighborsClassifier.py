@@ -1,5 +1,3 @@
-import numpy as np
-
 # 欧氏距离
 def E_dist(a:list,b:list):
     a=np.array(a)
@@ -45,3 +43,20 @@ class KNN:
             neighbors = self.__get_nb_of_one(x_test)
             Y_pred.append(self.__vote(neighbors))
         return np.array(Y_pred)
+
+
+if __name__ == "__main__":
+    import numpy as np
+    from sklearn.datasets import load_breast_cancer
+    from sklearn.model_selection import train_test_split
+
+    data = load_breast_cancer()
+    X = data.data
+    Y = data.target
+
+    X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
+
+    knn = KNN()
+    knn.fit(X_train, Y_train)
+    Y_pred = knn.predict(X_test)
+    print('acc:{}'.format(np.sum(Y_pred == Y_test)/len(Y_test)))
