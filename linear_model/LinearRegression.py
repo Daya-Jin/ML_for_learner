@@ -2,51 +2,60 @@ import numpy as np
 
 
 class LinearRegression:
-    def __init__(self, lr=0.00001, batch_size=32, max_iter=1000):
+    def __init__(self, lr=0.000001, mini_batch=None, batch_size=32, max_iter=2000):
         self.lr = lr
+        self.mini_batch = mini_batch
         self.batch_size = batch_size
         self.max_iter = max_iter
         self.W = None
         self.b = None
 
     def fit(self, X, Y):
-        X = X.copy()
-        Y = Y.copy()
+        Y = Y.reshape((-1, 1))
 
-        n = X.shape[0]  # 样本数
-        m = X.shape[1]  # 特征数
-        assert Y.shape[0] == n  # 数据与标签应该相等
-        Y = Y.reshape((n, 1))  # 标签，列向量
+        n_sample = X.shape[0]  # 样本数
+        n_feature = X.shape[1]  # 特征数
 
-        self.W = np.random.rand(m).reshape((1, -1))  # 权重，行向量
-        self.b = np.ones((1, 1))  # 偏置
+        self.W = np.random.randn(n_feature).reshape((n_feature, 1))  # 权重
+        self.b = 1  # 偏置
 
-        assert Y.shape == (n, 1)
+        assert Y.shape == (n_sample, 1)
 
-        num_batch = n // self.batch_size
+        # 判断batch_size参数的有效性
+        self.batch_size = self.batch_size if self.mini_batch else n_sample
+        num_batch = n_sample // self.batch_size
 
         for epoch in range(self.max_iter):
-            for i in range(num_batch + 1):
+            #### mini-batch ####
+            for i in range(num_batch + 1):  # 考虑到不能整除的情况，多循环一次
                 start_index = i * self.batch_size
                 end_index = (i + 1) * self.batch_size
-                if end_index <= n:
+                if start_index < n_sample:
+                    # 切片操作不会引发越界
                     X_batch = X[start_index:end_index + 1]
                     Y_batch = Y[start_index:end_index + 1]
-                else:
-                    X_batch = X[start_index:]
-                    Y_batch = Y[start_index:]
 
-                Y_hat = X_batch.dot(self.W.T) + self.b
-                dW = 2 * (Y_hat - Y_batch).T.dot(X_batch) / n
-                db = 2 * (Y_hat - Y_batch).T.dot(np.ones((X_batch.shape[0], 1))) / n
-                assert (dW.shape == self.W.shape) & (db.shape == self.b.shape)
+                    n_batch = X_batch.shape[0]
+                    Y_hat_batch = X_batch.dot(self.W) + self.b
+                    dW = 2 * X_batch.T.dot(Y_hat_batch - Y_batch) / n_batch
+                    db = 2 * np.sum(Y_hat_batch - Y_batch) / n_batch
+                    assert dW.shape == self.W.shape
 
-                self.W = self.W - self.lr * dW
-                self.b = self.b - self.lr * db
+                    self.W -= self.lr * dW
+                    self.b -= self.lr * db
+
+            # if epoch % 200 == 0:
+            #     Y_hat = np.dot(X, self.W) + self.b
+            #     L = np.sum((Y - Y_hat) ** 2) ** 0.5 / n_sample
+            #     print(L, end='\t')
 
     def predict(self, X):
-        X = X.copy()
-        return np.squeeze(np.dot(X, self.W.T) + self.b)  # 将矩阵压缩成向量，与原始输入Y保持一致
+        # 将矩阵压缩成向量，与原始输入Y保持一致
+        return np.squeeze(np.dot(X, self.W) + self.b)
+
+
+def RMSE(y_true, y_pred):
+    return sum((y_true - y_pred) ** 2) ** 0.5 / len(y_true)
 
 
 if __name__ == "__main__":
@@ -59,13 +68,8 @@ if __name__ == "__main__":
 
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
 
-    line_reg = LinearRegression()
+    line_reg = LinearRegression(max_iter=2000)
     line_reg.fit(X_train, Y_train)
-
-
-    def RMSE(y_true, y_pred):
-        return sum((y_true - y_pred) ** 2) ** 0.5
-
 
     Y_pred = line_reg.predict(X_test)
     rmse = RMSE(Y_test, Y_pred)
