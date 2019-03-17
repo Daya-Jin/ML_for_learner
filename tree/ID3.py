@@ -1,7 +1,3 @@
-import numpy as np
-import pandas as pd
-
-
 class ID3:
     def __init__(self):
         self.tree = None
@@ -69,7 +65,7 @@ class ID3:
 
             return tree
 
-    def train(self, X_train, Y_train):
+    def fit(self, X_train, Y_train):
         dataset = np.c_[X_train, Y_train]
         self.dataset = pd.DataFrame(dataset, columns=list(range(dataset.shape[1])))
         self.tree = self.__gen_tree(self.dataset, self.dataset, list(range(self.dataset.shape[1] - 1)))
@@ -127,7 +123,7 @@ if __name__ == '__main__':
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
 
     id3_tree = ID3()
-    id3_tree.train(X_train, Y_train)
+    id3_tree.fit(X_train, Y_train)
 
     Y_pred = id3_tree.predict(X_test)
     print('acc:{}'.format(np.sum(np.array(Y_test) == np.array(Y_pred)) / len(Y_test)))
