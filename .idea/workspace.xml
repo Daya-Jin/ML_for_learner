@@ -61,7 +61,7 @@
     <session id="1107530755">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="4" />
@@ -71,12 +71,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="13" />
+          <entry key="py" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="13" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -119,7 +119,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preprocessing/StandardScaler.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
@@ -128,6 +128,15 @@
                 <marker date="1552876510829" expanded="true" signature="42:47" ph="..." />
                 <marker date="1552876510829" expanded="true" signature="287:420" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linear_model/LinearRegression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -420,7 +429,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="462" y="74" width="1156" height="708" extended-state="0" />
+    <frame x="276" y="99" width="1156" height="708" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21129327" />
@@ -477,24 +486,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linear_model/LinearRegression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cluster/KMeans.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linear_model/LogisticRegression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -541,6 +536,20 @@
             <marker date="1552876510829" expanded="true" signature="42:47" ph="..." />
             <marker date="1552876510829" expanded="true" signature="287:420" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear_model/LogisticRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear_model/LinearRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
