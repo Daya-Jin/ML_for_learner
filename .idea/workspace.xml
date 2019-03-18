@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117aa67f-deb7-4f1a-afd8-3600c2185849" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/.ipynb_checkpoints/ID3(待转sklearn)-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/ID3(待转sklearn).ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/ID3.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/ID3.py" afterDir="false" />
-    </list>
+    <list default="true" id="117aa67f-deb7-4f1a-afd8-3600c2185849" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,44 +64,69 @@
           <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.5" value="4" />
-          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="11" />
+          <entry key="py" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="11" />
+          <entry key="Python" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7" />
-          <entry key="py" value="4185" />
+          <entry key="py" value="5080" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4192" />
+          <entry key="Python" value="5087" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mixture/GaussianMixture.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <marker date="1552822256710" expanded="true" signature="102:107" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decomposition/PCA.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <marker date="1552876176141" expanded="true" signature="10:15" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/preprocessing/StandardScaler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <marker date="1552876510829" expanded="true" signature="42:47" ph="..." />
+                <marker date="1552876510829" expanded="true" signature="287:420" ph="..." />
               </folding>
             </state>
           </provider>
@@ -144,6 +164,8 @@
         <option value="$PROJECT_DIR$/tree/ID3.py" />
         <option value="$PROJECT_DIR$/tree/RegressionTree.py" />
         <option value="$PROJECT_DIR$/mixture/GaussianMixture.py" />
+        <option value="$PROJECT_DIR$/decomposition/PCA.py" />
+        <option value="$PROJECT_DIR$/preprocessing/StandardScaler.py" />
       </list>
     </option>
   </component>
@@ -154,8 +176,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="302" />
-    <option name="y" value="201" />
+    <option name="x" value="345" />
+    <option name="y" value="123" />
     <option name="width" value="1445" />
     <option name="height" value="885" />
   </component>
@@ -191,11 +213,6 @@
             <path>
               <item name="ML_for_learner" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML_for_learner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML_for_learner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML_for_learner" type="462c0819:PsiDirectoryNode" />
-              <item name="mixture" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -240,11 +257,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GaussianMixture">
+  <component name="RunManager" selected="Python.StandardScaler">
     <configuration name="GaussianMixture" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mixture" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -282,42 +302,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LinearRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PCA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linear_model" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decomposition" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linear_model/LinearRegression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LogisticRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML_for_learner" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linear_model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linear_model/LogisticRegression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decomposition/PCA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -340,6 +335,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tree/RegressionTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="StandardScaler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_for_learner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/StandardScaler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -371,19 +385,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.LinearRegression" />
-      <item itemvalue="Python.LogisticRegression" />
       <item itemvalue="Python.KMeans" />
       <item itemvalue="Python.RegressionTree" />
       <item itemvalue="Python.GaussianMixture" />
+      <item itemvalue="Python.PCA" />
+      <item itemvalue="Python.StandardScaler" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.StandardScaler" />
+        <item itemvalue="Python.PCA" />
         <item itemvalue="Python.GaussianMixture" />
         <item itemvalue="Python.RegressionTree" />
         <item itemvalue="Python.KMeans" />
-        <item itemvalue="Python.LogisticRegression" />
-        <item itemvalue="Python.LinearRegression" />
       </list>
     </recent_temporary>
   </component>
@@ -406,10 +420,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="242" y="161" width="1156" height="708" extended-state="0" />
+    <frame x="462" y="74" width="1156" height="708" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20765027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21129327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -424,7 +438,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1575592" side_tool="true" weight="0.3252174" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3298611" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8424408" weight="0.3252174" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8424408" visible="true" weight="0.3252174" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -500,11 +514,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mixture/GaussianMixture.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <marker date="1552822256710" expanded="true" signature="102:107" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decomposition/PCA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <marker date="1552876176141" expanded="true" signature="10:15" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/StandardScaler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <marker date="1552876510829" expanded="true" signature="42:47" ph="..." />
+            <marker date="1552876510829" expanded="true" signature="287:420" ph="..." />
           </folding>
         </state>
       </provider>
