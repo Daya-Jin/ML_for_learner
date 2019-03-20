@@ -44,11 +44,6 @@ class LinearRegression:
                     self.W -= self.lr * dW
                     self.b -= self.lr * db
 
-            # if epoch % 200 == 0:
-            #     Y_hat = np.dot(X, self.W) + self.b
-            #     L = np.sum((Y - Y_hat) ** 2) ** 0.5 / n_sample
-            #     print(L, end='\t')
-
     def predict(self, X):
         # 将矩阵压缩成向量，与原始输入Y保持一致
         return np.squeeze(np.dot(X, self.W) + self.b)

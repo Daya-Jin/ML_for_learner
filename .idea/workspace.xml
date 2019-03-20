@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117aa67f-deb7-4f1a-afd8-3600c2185849" name="Default Changelist" comment="" />
+    <list default="true" id="117aa67f-deb7-4f1a-afd8-3600c2185849" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_model/LinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/linear_model/LinearRegression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mixture/GaussianMixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/mixture/GaussianMixture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/.ipynb_checkpoints/CART-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/CART.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/ID3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tree/ID3_Clf.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/ID3.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/ID3_Clf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/RegressionTree.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tree/ID3_Reg.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/RegressionTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/ID3_Reg.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,82 +71,60 @@
     <session id="1107530755">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="15" />
+          <entry key="py" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="15" />
+          <entry key="Python" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7" />
-          <entry key="py" value="5080" />
+          <entry key="dummy" value="3" />
+          <entry key="py" value="6001" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5087" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="6008" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mixture/GaussianMixture.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <marker date="1552822256710" expanded="true" signature="102:107" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decomposition/PCA.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <marker date="1552876176141" expanded="true" signature="10:15" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocessing/StandardScaler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <marker date="1552876510829" expanded="true" signature="42:47" ph="..." />
-                <marker date="1552876510829" expanded="true" signature="287:420" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/linear_model/LinearRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="242">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree/DecisionTreeRegressor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+              <folding>
+                <marker date="1553086349191" expanded="true" signature="28:33" ph="..." />
+                <marker date="1553086349191" expanded="true" signature="3343:3656" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,6 +145,9 @@
       <find>w</find>
       <find>mu</find>
       <find>covar</find>
+      <find>self.min_samples_split</find>
+      <find>self.min_samples_leaf</find>
+      <find>self.min_impurity_decrease</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,14 +158,15 @@
       <list>
         <option value="$PROJECT_DIR$/linear_model/test.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/linear_model/LinearRegression.py" />
         <option value="$PROJECT_DIR$/linear_model/LogisticRegression.py" />
         <option value="$PROJECT_DIR$/cluster/KMeans.py" />
         <option value="$PROJECT_DIR$/tree/ID3.py" />
         <option value="$PROJECT_DIR$/tree/RegressionTree.py" />
-        <option value="$PROJECT_DIR$/mixture/GaussianMixture.py" />
         <option value="$PROJECT_DIR$/decomposition/PCA.py" />
         <option value="$PROJECT_DIR$/preprocessing/StandardScaler.py" />
+        <option value="$PROJECT_DIR$/mixture/GaussianMixture.py" />
+        <option value="$PROJECT_DIR$/tree/DecisionTreeRegressor.py" />
+        <option value="$PROJECT_DIR$/linear_model/LinearRegression.py" />
       </list>
     </option>
   </component>
@@ -185,8 +177,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="187" />
-    <option name="y" value="110" />
+    <option name="x" value="-24" />
+    <option name="y" value="185" />
     <option name="width" value="1445" />
     <option name="height" value="885" />
   </component>
@@ -222,6 +214,11 @@
               <item name="ML_for_learner" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML_for_learner" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ML_for_learner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_for_learner" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -237,7 +234,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataStructureAndAlgorithm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -266,7 +263,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.StandardScaler">
+  <component name="RunManager" selected="Python.DecisionTreeRegressor">
+    <configuration name="DecisionTreeRegressor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_for_learner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tree/DecisionTreeRegressor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="GaussianMixture" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -281,28 +297,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mixture/GaussianMixture.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="KMeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML_for_learner" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cluster" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cluster/KMeans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -346,7 +340,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tree/RegressionTree.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\qq435\OneDrive\GitHub\ML_for_learner\tree\ID3_Reg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -400,19 +394,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.KMeans" />
       <item itemvalue="Python.RegressionTree" />
       <item itemvalue="Python.GaussianMixture" />
       <item itemvalue="Python.PCA" />
       <item itemvalue="Python.StandardScaler" />
+      <item itemvalue="Python.DecisionTreeRegressor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DecisionTreeRegressor" />
         <item itemvalue="Python.StandardScaler" />
         <item itemvalue="Python.PCA" />
         <item itemvalue="Python.GaussianMixture" />
         <item itemvalue="Python.RegressionTree" />
-        <item itemvalue="Python.KMeans" />
       </list>
     </recent_temporary>
   </component>
@@ -435,9 +429,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="150" y="88" width="1156" height="708" extended-state="0" />
+    <frame x="-19" y="148" width="1156" height="708" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21493624" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21857923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -452,7 +447,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1575592" side_tool="true" weight="0.3252174" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3298611" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.8424408" visible="true" weight="0.3252174" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8424408" weight="0.3252174" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -498,14 +493,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tree/ID3.py">
+    <entry file="file://$PROJECT_DIR$/tree/ID3_Clf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tree/RegressionTree.py">
+    <entry file="file://$PROJECT_DIR$/tree/ID3_Reg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="53" column="28" lean-forward="true" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
@@ -516,27 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mixture/GaussianMixture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1552822256710" expanded="true" signature="102:107" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decomposition/PCA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <marker date="1552876176141" expanded="true" signature="10:15" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,10 +525,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mixture/GaussianMixture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <marker date="1553083727521" expanded="true" signature="83:88" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decomposition/PCA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <marker date="1552876176141" expanded="true" signature="10:15" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/DecisionTreeRegressor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding>
+            <marker date="1553086349191" expanded="true" signature="28:33" ph="..." />
+            <marker date="1553086349191" expanded="true" signature="3343:3656" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/linear_model/LinearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

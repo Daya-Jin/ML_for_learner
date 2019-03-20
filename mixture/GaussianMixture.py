@@ -1,4 +1,3 @@
-import numpy as np
 from scipy.stats import multivariate_normal  # 生成多维概率分布的方法
 
 
