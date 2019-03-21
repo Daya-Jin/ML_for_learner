@@ -1,4 +1,4 @@
-class DecisionTreeRegressor:
+class DecisionTreeClassifier:
     def __init__(self, min_samples_split=5, min_samples_leaf=5, min_impurity_decrease=0.0):
         '''
         :param min_samples_split: 分裂所需的最小样本数
@@ -10,15 +10,18 @@ class DecisionTreeRegressor:
         self.__min_impurity_decrease = min_impurity_decrease
         self.tree = None
 
-    def __MSE(self, data, y_idx=-1):
+    def __Gini(self, data, y_idx=-1):
         '''
         :param data:
         :param y_idx: 目标值在data中的列索引
-        :return: y的MSE
+        :return: y的Gini
         '''
+        K = np.unique(data[:, y_idx])
         n_sample = len(data)
-        mean = np.mean(data[:, y_idx])
-        return np.sum(np.square(data[:, y_idx] - mean)) / n_sample
+        gini_idx = 1 - \
+                   np.sum([np.square(len(data[data[:, y_idx] == k]) / n_sample) for k in K])
+
+        return gini_idx
 
     def __BinSplitData(self, data, f_idx, f_val):
         '''
@@ -44,7 +47,7 @@ class DecisionTreeRegressor:
         if n_sample < self.__min_samples_split or len(np.unique(data[:, -1])) == 1:
             return None, np.mean(data[:, -1])
 
-        MSE_before = self.__MSE(data)  # 分裂前的MSE
+        Gini_before = self.__Gini(data)  # 分裂前的Gini
         best_gain = 0
         best_f_idx = None
         best_f_val = np.mean(data[:, -1])  # 默认分割值设为目标均值，当找不到分割点时返回该值作为叶节点
@@ -58,10 +61,10 @@ class DecisionTreeRegressor:
                 if len(data_left) < self.__min_samples_leaf or len(data_right) < self.__min_samples_leaf:
                     continue
 
-                # 分割后的加权MSE
-                MSE_after = len(data_left) / n_sample * self.__MSE(data_left) + \
-                            len(data_right) / n_sample * self.__MSE(data_right)
-                gain = MSE_before - MSE_after  # MSE的减小量为增益
+                # 分割后的加权Gini
+                Gini_after = len(data_left) / n_sample * self.__Gini(data_left) + \
+                             len(data_right) / n_sample * self.__Gini(data_right)
+                gain = Gini_before - Gini_after  # Gini的减小量为增益
 
                 # 分裂后的增益小于阈值或小于目前最大增益则放弃分裂
                 if gain < self.__min_impurity_decrease or gain < best_gain:
@@ -120,9 +123,9 @@ class DecisionTreeRegressor:
 
 if __name__ == '__main__':
     import numpy as np
-    from sklearn.datasets import load_boston
+    from sklearn.datasets import load_breast_cancer
 
-    data = load_boston()
+    data = load_breast_cancer()
     X, Y = data.data, data.target
     del data
 
@@ -130,8 +133,12 @@ if __name__ == '__main__':
 
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
 
-    tree_reg = DecisionTreeRegressor()
-    tree_reg.fit(X_train, Y_train)
-    Y_pred = tree_reg.predict(X_test)
+    tree_clf = DecisionTreeClassifier()
+    tree_clf.fit(X_train, Y_train)
+    Y_pred = tree_clf.predict(X_test)
+    print('acc_before_tuning:{}'.format(np.sum(Y_pred == Y_test) / len(Y_test)))
 
-    print('MSE:{}'.format(np.mean(np.square(Y_pred - Y_test))))
+    tree_clf = DecisionTreeClassifier(min_samples_split=2, min_samples_leaf=2)
+    tree_clf.fit(X_train, Y_train)
+    Y_pred = tree_clf.predict(X_test)
+    print('acc_after_tuning:{}'.format(np.sum(Y_pred == Y_test) / len(Y_test)))
