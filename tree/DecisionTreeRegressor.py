@@ -1,3 +1,5 @@
+import numpy as np
+
 class DecisionTreeRegressor:
     def __init__(self, min_samples_split=5, min_samples_leaf=5, min_impurity_decrease=0.0):
         '''
@@ -119,7 +121,6 @@ class DecisionTreeRegressor:
 
 
 if __name__ == '__main__':
-    import numpy as np
     from sklearn.datasets import load_boston
 
     data = load_boston()

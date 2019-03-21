@@ -1,3 +1,6 @@
+import numpy as np
+from scipy import stats
+
 class DecisionTreeClassifier:
     def __init__(self, min_samples_split=5, min_samples_leaf=5, min_impurity_decrease=0.0):
         '''
@@ -45,12 +48,12 @@ class DecisionTreeClassifier:
 
         # 数据量小于阈值则直接返回叶节点，数据已纯净也返回叶节点
         if n_sample < self.__min_samples_split or len(np.unique(data[:, -1])) == 1:
-            return None, np.mean(data[:, -1])
+            return None, stats.mode(data[:, -1])[0][0]
 
         Gini_before = self.__Gini(data)  # 分裂前的Gini
         best_gain = 0
         best_f_idx = None
-        best_f_val = np.mean(data[:, -1])  # 默认分割值设为目标均值，当找不到分割点时返回该值作为叶节点
+        best_f_val = stats.mode(data[:, -1])[0][0]  # 默认分割值设为目标众数，当找不到分割点时返回该值作为叶节点
 
         # 遍历所有特征与特征值
         for f_idx in range(n_feature - 1):
@@ -122,7 +125,6 @@ class DecisionTreeClassifier:
 
 
 if __name__ == '__main__':
-    import numpy as np
     from sklearn.datasets import load_breast_cancer
 
     data = load_breast_cancer()
