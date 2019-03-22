@@ -1,5 +1,6 @@
 import numpy as np
-from scipy import stats
+from scipy import stats    # 用于求众数
+
 
 class DecisionTreeClassifier:
     def __init__(self, min_samples_split=5, min_samples_leaf=5, min_impurity_decrease=0.0):
@@ -138,9 +139,4 @@ if __name__ == '__main__':
     tree_clf = DecisionTreeClassifier()
     tree_clf.fit(X_train, Y_train)
     Y_pred = tree_clf.predict(X_test)
-    print('acc_before_tuning:{}'.format(np.sum(Y_pred == Y_test) / len(Y_test)))
-
-    tree_clf = DecisionTreeClassifier(min_samples_split=2, min_samples_leaf=2)
-    tree_clf.fit(X_train, Y_train)
-    Y_pred = tree_clf.predict(X_test)
-    print('acc_after_tuning:{}'.format(np.sum(Y_pred == Y_test) / len(Y_test)))
+    print('acc:{}'.format(np.sum(Y_pred == Y_test) / len(Y_test)))

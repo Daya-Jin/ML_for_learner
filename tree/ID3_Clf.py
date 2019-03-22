@@ -23,7 +23,7 @@ class ID3:
     def __gen_tree(self, dataset, org_dataset, f_cols, Y_col=-1, p_node_cls=None):
         '''
         dataset: 用于分割的数据
-        org_dataset: 用于计算优势类别的数据，父节点数据
+        org_dataset: 最原始的数据，全部数据
         f_cols: 备选特征
         '''
         # 如果数据中的Y已经纯净了，则返回Y的取值
