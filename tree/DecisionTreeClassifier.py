@@ -125,8 +125,9 @@ class DecisionTreeClassifier:
         else:  # 叶节点则直接返回值
             return tree
 
-    def fit(self, X_train, Y_train):
-        data = np.c_[X_train, Y_train]  # 拼接特征与目标，便于操作
+    def fit(self, X_train, Y_train,sample_weight=None):
+        sample_weight=sample_weight if sample_weight else np.array([1/len(X_train)]*len(X_train))
+        data = np.c_[sample_weight,X_train, Y_train]  # 拼接特征与目标，便于操作
         self.tree = self.__CART(data)  # 生成CART树即完成训练
 
     def predict(self, X_test):

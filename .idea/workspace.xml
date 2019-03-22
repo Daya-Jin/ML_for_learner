@@ -4,10 +4,9 @@
     <list default="true" id="117aa67f-deb7-4f1a-afd8-3600c2185849" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/ensemble/.ipynb_checkpoints/AdaBoostClassifier-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ensemble/.ipynb_checkpoints/AdaBoostClassifier-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ensemble/AdaBoostClassifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ensemble/AdaBoostClassifier.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_model/.ipynb_checkpoints/LogisticRegression-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/linear_model/.ipynb_checkpoints/LogisticRegression-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_model/LogisticRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/linear_model/LogisticRegression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/.ipynb_checkpoints/add_param-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tree/.ipynb_checkpoints/add_param-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/DecisionTreeClassifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/DecisionTreeClassifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/DecisionTreeRegressor.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/DecisionTreeRegressor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/add_param.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tree/add_param.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,13 +92,13 @@
         <counts>
           <entry key="Python Console" value="7" />
           <entry key="dummy" value="3" />
-          <entry key="py" value="7314" />
+          <entry key="py" value="7362" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="7321" />
+          <entry key="Python" value="7369" />
         </counts>
       </usages-collector>
     </session>
@@ -109,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tree/DecisionTreeClassifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="92" column="44" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="44" />
+            <state relative-caret-position="313">
+              <caret line="129" column="35" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -175,8 +174,8 @@
         <option value="$PROJECT_DIR$/ensemble/RandomForestClassifier.py" />
         <option value="$PROJECT_DIR$/tree/ID3_Clf.py" />
         <option value="$PROJECT_DIR$/tree/RandomForestRegressor.py" />
-        <option value="$PROJECT_DIR$/tree/DecisionTreeClassifier.py" />
         <option value="$PROJECT_DIR$/tree/DecisionTreeRegressor.py" />
+        <option value="$PROJECT_DIR$/tree/DecisionTreeClassifier.py" />
       </list>
     </option>
   </component>
@@ -187,8 +186,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-12" />
-    <option name="y" value="102" />
+    <option name="x" value="-78" />
+    <option name="y" value="137" />
     <option name="width" value="1445" />
     <option name="height" value="885" />
   </component>
@@ -436,7 +435,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="82" width="1156" height="708" extended-state="0" />
+    <frame x="-62" y="110" width="1156" height="708" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23861566" />
@@ -617,8 +616,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tree/DecisionTreeClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="92" column="44" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="44" />
+        <state relative-caret-position="313">
+          <caret line="129" column="35" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
