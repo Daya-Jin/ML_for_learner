@@ -1,18 +1,20 @@
 import numpy as np
-from scipy import stats    # 用于求众数
+from scipy import stats  # 用于求众数
 
 
 class DecisionTreeClassifier:
-    def __init__(self, min_samples_split=5, min_samples_leaf=5, min_impurity_decrease=0.0):
+    def __init__(self, max_depth=None, min_samples_split=5, min_samples_leaf=5, min_impurity_decrease=0.0):
         '''
         :param min_samples_split: 分裂所需的最小样本数
         :param min_samples_leaf: 叶节点中的最小样本数
         :param min_impurity_decrease: 分裂需要满足的最小增益
         '''
+        self.__max_depth = max_depth
         self.__min_samples_split = min_samples_split
         self.__min_samples_leaf = min_samples_leaf
         self.__min_impurity_decrease = min_impurity_decrease
         self.tree = None
+        self.__nodes = 0
 
     def __Gini(self, data, y_idx=-1):
         '''
@@ -89,9 +91,15 @@ class DecisionTreeClassifier:
         '''
         # 首先是做test，数据集的质量由Test函数来保证并提供反馈
         best_f_idx, best_f_val = self.__Test(data)
+        self.__nodes += 1
 
         if best_f_idx is None:  # f_idx为空表示需要生成叶节点
             return best_f_val
+
+        # 节点数超过最大深度的限制，也要返回叶节点，叶节点的值为当前数据中的目标值众数
+        if self.__max_depth:
+            if self.__nodes >= 2 ** self.__max_depth:
+                return stats.mode(data[:, -1])[0][0]
 
         tree = dict()
         tree['cut_f'] = best_f_idx
