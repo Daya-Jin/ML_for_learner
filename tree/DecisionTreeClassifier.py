@@ -23,9 +23,8 @@ class DecisionTreeClassifier:
         :return: y的Gini
         '''
         K = np.unique(data[:, y_idx])
-        n_sample = len(data)
         gini_idx = 1 - \
-                   np.sum([np.square(len(data[data[:, y_idx] == k]) / n_sample) for k in K])
+                   np.sum([np.square(np.sum(data[data[:, y_idx] == k][:,-2]) / np.sum(data[:,-2])) for k in K])
 
         return gini_idx
 
@@ -48,6 +47,7 @@ class DecisionTreeClassifier:
         :return: best_f_idx, best_f_val，前者为空时代表无法分裂
         '''
         n_sample, n_feature = data.shape
+        n_feature -= 2
 
         # 数据量小于阈值则直接返回叶节点，数据已纯净也返回叶节点
         if n_sample < self.__min_samples_split or len(np.unique(data[:, -1])) == 1:
@@ -59,7 +59,7 @@ class DecisionTreeClassifier:
         best_f_val = stats.mode(data[:, -1])[0][0]  # 默认分割值设为目标众数，当找不到分割点时返回该值作为叶节点
 
         # 遍历所有特征与特征值
-        for f_idx in range(n_feature - 1):
+        for f_idx in range(n_feature):
             for f_val in np.unique(data[:, f_idx]):
                 data_left, data_right = self.__BinSplitData(data, f_idx, f_val)  # 二分数据
 
@@ -68,8 +68,8 @@ class DecisionTreeClassifier:
                     continue
 
                 # 分割后的加权Gini
-                Gini_after = len(data_left) / n_sample * self.__Gini(data_left) + \
-                             len(data_right) / n_sample * self.__Gini(data_right)
+                Gini_after = np.sum(data_left[:,-2])/np.sum(data[:,-2]) * self.__Gini(data_left) + \
+                             np.sum(data_right[:,-2])/np.sum(data[:,-2]) * self.__Gini(data_right)
                 gain = Gini_before - Gini_after  # Gini的减小量为增益
 
                 # 分裂后的增益小于阈值或小于目前最大增益则放弃分裂
@@ -125,13 +125,16 @@ class DecisionTreeClassifier:
         else:  # 叶节点则直接返回值
             return tree
 
-    def fit(self, X_train, Y_train,sample_weight=None):
-        sample_weight=sample_weight if sample_weight else np.array([1/len(X_train)]*len(X_train))
-        data = np.c_[sample_weight,X_train, Y_train]  # 拼接特征与目标，便于操作
+    def fit(self, X_train, Y_train, sample_weight=None):
+        if sample_weight is None:
+            sample_weight=np.array([1 / len(X_train)] * len(X_train))
+        else:
+            sample_weight = sample_weight
+        data = np.c_[X_train, sample_weight, Y_train]  # 权重为倒数第二列，目标值为最后一列
         self.tree = self.__CART(data)  # 生成CART树即完成训练
 
     def predict(self, X_test):
-        return [self.__predict_one(x_test, self.tree) for x_test in X_test]
+        return np.array([self.__predict_one(x_test, self.tree) for x_test in X_test])
 
 
 if __name__ == '__main__':

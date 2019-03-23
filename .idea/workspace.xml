@@ -16,6 +16,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ML_for_learner$test.coverage" NAME="test Coverage Results" MODIFIED="1545305051832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linear_model" />
+    <SUITE FILE_PATH="coverage/ML_for_learner$DecisionTreeClassifier.coverage" NAME="DecisionTreeClassifier Coverage Results" MODIFIED="1553353435062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
     <SUITE FILE_PATH="coverage/ML_for_learner$ID3.coverage" NAME="ID3 Coverage Results" MODIFIED="1552533161004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
     <SUITE FILE_PATH="coverage/ML_for_learner$GaussianMixture.coverage" NAME="GaussianMixture Coverage Results" MODIFIED="1552809321595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mixture" />
   </component>
@@ -92,13 +93,13 @@
         <counts>
           <entry key="Python Console" value="7" />
           <entry key="dummy" value="3" />
-          <entry key="py" value="7362" />
+          <entry key="py" value="7605" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="7369" />
+          <entry key="Python" value="7612" />
         </counts>
       </usages-collector>
     </session>
@@ -108,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tree/DecisionTreeClassifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="129" column="35" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
+            <state relative-caret-position="192">
+              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -186,8 +187,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-78" />
-    <option name="y" value="137" />
+    <option name="x" value="-157" />
+    <option name="y" value="136" />
     <option name="width" value="1445" />
     <option name="height" value="885" />
   </component>
@@ -272,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DecisionTreeRegressor">
+  <component name="RunManager" selected="Python.DecisionTreeClassifier">
     <configuration name="DecisionTreeClassifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -408,8 +409,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.DecisionTreeRegressor" />
         <item itemvalue="Python.DecisionTreeClassifier" />
+        <item itemvalue="Python.DecisionTreeRegressor" />
         <item itemvalue="Python.RandomForestRegressor" />
         <item itemvalue="Python.RandomForestClassifier" />
         <item itemvalue="Python.StandardScaler" />
@@ -435,10 +436,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-62" y="110" width="1156" height="708" extended-state="0" />
+    <frame x="-125" y="109" width="1156" height="708" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23861566" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23861566" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -453,7 +454,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1575592" side_tool="true" weight="0.3252174" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3298611" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8424408" weight="0.3252174" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8424408" visible="true" weight="0.3252174" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -616,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tree/DecisionTreeClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="129" column="35" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
+        <state relative-caret-position="192">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
