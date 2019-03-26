@@ -5,10 +5,11 @@
 
 |Class|Algorithm|Implementation|Code|
 |-|-|-|-|
-|Generalized Linear Models|[LinearRegression](https://daya-jin.github.io/2018/12/01/LinearRegression/)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/linear_model/LinearRegression.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/linear_model/LinearRegression.py)|
+|Generalized Linear Models|[Linear Regression](https://daya-jin.github.io/2018/12/01/LinearRegression/)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/linear_model/LinearRegression.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/linear_model/LinearRegression.py)|
 ||[Logistic regression](https://daya-jin.github.io/2018/12/01/LogisticRegression/)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/linear_model/LogisticRegression.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/linear_model/LogisticRegression.py)|
 |[Nearest Neighbors](https://daya-jin.github.io/2018/12/29/KNearestNeighbor/)|Nearest Neighbors Classification|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/neighbors/KNN.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/neighbors/KNeighborsClassifier.py)|
 |[Naive Bayes](https://daya-jin.github.io/2018/12/01/NaiveBayes/)|Gaussian Naive Bayes|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/naive_bayes/Gaussian%20Naive%20Bayes.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/naive_bayes/GaussianNB.py)|
+|[Support Vector Machine](https://daya-jin.github.io/2018/12/01/SupportVectorMachine/)|SVC|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/svm/SMO.ipynb)||
 |[Decision Trees](https://daya-jin.github.io/2018/12/01/DecisionTree/)|[ID3 Classification](https://daya-jin.github.io/2018/12/01/DecisionTree/#id3)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/tree/ID3_Clf.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/tree/ID3_Clf.py)|
 ||ID3 Regression|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/tree/ID3_Reg.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/tree/ID3_Reg.py)|
 ||[CART Classification](https://daya-jin.github.io/2018/12/01/DecisionTree/#classification-and-regression-tree)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/tree/DecisionTreeClassifier.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/tree/DecisionTreeClassifier.py)|

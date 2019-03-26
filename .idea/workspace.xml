@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="117aa67f-deb7-4f1a-afd8-3600c2185849" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ensemble/.ipynb_checkpoints/AdaBoostClassifier-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ensemble/.ipynb_checkpoints/AdaBoostClassifier-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ensemble/AdaBoostClassifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ensemble/AdaBoostClassifier.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm/SMO.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/svm/SMO.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,63 +65,65 @@
     <session id="1107530755">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="5" />
-          <entry key="project.open.time.6" value="8" />
+          <entry key="project.open.time.6" value="9" />
           <entry key="project.open.time.7" value="4" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="1" />
-          <entry key="py" value="38" />
+          <entry key="py" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="1" />
-          <entry key="Python" value="38" />
+          <entry key="Python" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7" />
           <entry key="dummy" value="3" />
-          <entry key="py" value="8274" />
+          <entry key="py" value="9624" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="8281" />
+          <entry key="Python" value="9631" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ensemble/RandomForestClassifier.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/svm/SVC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
-              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="193">
+              <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+                <marker date="1553567605776" expanded="true" signature="103:382" ph="..." />
+                <marker date="1553567605776" expanded="true" signature="392:397" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ensemble/AdaBoostClassifier.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svm/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="52" column="70" lean-forward="true" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
+            <state relative-caret-position="217">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1553565493226" expanded="true" signature="511:512" ph="..." />
               </folding>
             </state>
           </provider>
@@ -188,6 +189,8 @@
         <option value="$PROJECT_DIR$/tree/DecisionTreeRegressor.py" />
         <option value="$PROJECT_DIR$/tree/DecisionTreeClassifier.py" />
         <option value="$PROJECT_DIR$/ensemble/AdaBoostClassifier.py" />
+        <option value="$PROJECT_DIR$/svm/utils.py" />
+        <option value="$PROJECT_DIR$/svm/SVC.py" />
       </list>
     </option>
   </component>
@@ -198,8 +201,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-17" />
-    <option name="y" value="105" />
+    <option name="x" value="-8" />
+    <option name="y" value="107" />
     <option name="width" value="1445" />
     <option name="height" value="885" />
   </component>
@@ -239,7 +242,7 @@
             <path>
               <item name="ML_for_learner" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML_for_learner" type="462c0819:PsiDirectoryNode" />
-              <item name="ensemble" type="462c0819:PsiDirectoryNode" />
+              <item name="svm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,11 +287,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AdaBoostClassifier">
+  <component name="RunManager" selected="Python.SVC">
     <configuration name="AdaBoostClassifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ensemble" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -348,28 +354,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RandomForestClassifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML_for_learner" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ensemble" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ensemble/RandomForestClassifier.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="RandomForestRegressor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -384,6 +368,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tree/RandomForestRegressor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SVC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_for_learner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/svm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/svm/SVC.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -417,17 +420,17 @@
     <list>
       <item itemvalue="Python.DecisionTreeRegressor" />
       <item itemvalue="Python.DecisionTreeClassifier" />
-      <item itemvalue="Python.RandomForestClassifier" />
       <item itemvalue="Python.RandomForestRegressor" />
       <item itemvalue="Python.AdaBoostClassifier" />
+      <item itemvalue="Python.SVC" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SVC" />
         <item itemvalue="Python.AdaBoostClassifier" />
         <item itemvalue="Python.DecisionTreeClassifier" />
         <item itemvalue="Python.DecisionTreeRegressor" />
         <item itemvalue="Python.RandomForestRegressor" />
-        <item itemvalue="Python.RandomForestClassifier" />
       </list>
     </recent_temporary>
   </component>
@@ -450,10 +453,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="84" width="1156" height="708" extended-state="0" />
+    <frame x="-6" y="86" width="1156" height="708" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24772313" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25227687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -468,7 +471,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1575592" side_tool="true" weight="0.3252174" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3298611" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.8424408" visible="true" weight="0.3252174" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.8424408" visible="true" weight="0.32347825" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -610,6 +613,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ensemble/AdaBoostClassifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="52" column="70" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -618,20 +628,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ensemble/RandomForestClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="264">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ensemble/AdaBoostClassifier.py">
+    <entry file="file://$PROJECT_DIR$/svm/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="52" column="70" lean-forward="true" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
+        <state relative-caret-position="217">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1553565493226" expanded="true" signature="511:512" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svm/SVC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <marker date="1553567605776" expanded="true" signature="103:382" ph="..." />
+            <marker date="1553567605776" expanded="true" signature="392:397" ph="..." />
           </folding>
         </state>
       </provider>
