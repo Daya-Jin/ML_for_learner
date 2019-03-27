@@ -1,13 +1,11 @@
 # ML_for_learner
-该项目使用numpy实现一个类scikit-learn的机器学习库，对于相关的知识，均配有blog文章对其理论进行讲解，对于部分功能，还配有notebook分析实现上的细节。
+该项目旨在使用numpy实现一个类scikit-learn的机器学习库，对于相关的知识，均配有blog文章对其理论进行讲解，对于部分功能，还配有notebook分析代码实现上的细节。该项目的初衷是为那些算法学习者提供从理论到实现的一站式服务。
 
-该项目的初衷是为那些算法学习者提供一个从理论到实现的全套知识平台。除此之外，该项目不仅限于学习者，我会尽可能的保证该项目中各模块的可用性。由于本人学识有限，如果您在blog、notebook或者code中发现任何纰漏或bug，请迅速联系我，当然也可以在项目页面提issue，谢谢。
+由于本人学识有限，并且没有Python开发经验，该库目前还是一个非常松散的代码集合体。如果您在blog、notebook或者code中发现任何纰漏或bug，请迅速联系我，当然也可以在项目页面提issue，谢谢。
 
-QQ: 435248055
+QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https://daya-jin.github.io/)
 
-WeChat: QQ435248055
-
-Blog: [https://daya-jin.github.io/](https://daya-jin.github.io/)
+---
 
 ## Supervised learning
 
@@ -35,20 +33,22 @@ Blog: [https://daya-jin.github.io/](https://daya-jin.github.io/)
 
 ## Model selection and evaluation
 
-|Class|Approach|code|
+|Class|Approach|Code|
 |-|-|-|
-|metrics|||
-||||
-||||
-||||
-||||
-||||
+|[Model Selection](https://daya-jin.github.io/2018/12/11/Model_Assessment_and_Selection/)|Dataset Split|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/model_selection/train_test_split.py)|
+|[Metrics](https://daya-jin.github.io/2019/03/27/Evaluation_Metircs/)|Accuracy|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/accuracy_score.py)|
+||Log loss|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/log_loss.py)|
+||F1-score|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/f1_score.py)|
 ||||
 
 ## Preprocessing data
 
 |Class|Algorithm|Implementation|Code|
 |-|-|-|-|
-|[Scaling features](https://daya-jin.github.io/2019/03/20/Data_Scaling/)|StandardScaler|[notebook]()|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/preprocessing/StandardScaler.py)|
+|[Feature Scaling](https://daya-jin.github.io/2019/03/20/Data_Scaling/)|StandardScaler|[notebook]()|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/preprocessing/StandardScaler.py)|
 ||MinMaxScaler|||
 |Unsupervised dimensionality reduction|PCA|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/decomposition/PCA.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/decomposition/PCA.py)|
+
+## Known Issues
+
+```/datasets/dataset.py```中所有的```load_*()```函数均存在路径问题，解决该问题待参阅scikit-learn源码。
