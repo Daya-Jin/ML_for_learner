@@ -7,6 +7,8 @@ QQ: 435248055
 
 WeChat: QQ435248055
 
+Blog: [https://daya-jin.github.io/](https://daya-jin.github.io/)
+
 ## Supervised learning
 
 |Class|Algorithm|Implementation|Code|
