@@ -138,7 +138,7 @@ class DecisionTreeClassifier:
 
 
 if __name__ == '__main__':
-    from sklearn.datasets import load_breast_cancer
+    from datasets.dataset import load_breast_cancer
 
     data = load_breast_cancer()
     X, Y = data.data, data.target
@@ -151,4 +151,11 @@ if __name__ == '__main__':
     tree_clf = DecisionTreeClassifier()
     tree_clf.fit(X_train, Y_train)
     Y_pred = tree_clf.predict(X_test)
+    del tree_clf
     print('acc:{}'.format(np.sum(Y_pred == Y_test) / len(Y_test)))
+
+    from sklearn.tree import DecisionTreeClassifier
+    tree_clf=DecisionTreeClassifier()
+    tree_clf.fit(X_train, Y_train)
+    Y_pred = tree_clf.predict(X_test)
+    print('sklearn acc:{}'.format(np.sum(Y_pred == Y_test) / len(Y_test)))

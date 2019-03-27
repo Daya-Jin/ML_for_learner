@@ -130,7 +130,7 @@ class DecisionTreeRegressor:
 
 
 if __name__ == '__main__':
-    from sklearn.datasets import load_boston
+    from datasets.dataset import load_boston
 
     data = load_boston()
     X, Y = data.data, data.target
@@ -143,5 +143,11 @@ if __name__ == '__main__':
     tree_reg = DecisionTreeRegressor()
     tree_reg.fit(X_train, Y_train)
     Y_pred = tree_reg.predict(X_test)
+    del tree_reg
+    print('MSE:{}'.format(np.mean(np.square(Y_pred - Y_test))))
 
+    from sklearn.tree import DecisionTreeRegressor
+    tree_reg = DecisionTreeRegressor()
+    tree_reg.fit(X_train, Y_train)
+    Y_pred = tree_reg.predict(X_test)
     print('MSE:{}'.format(np.mean(np.square(Y_pred - Y_test))))

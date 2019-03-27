@@ -33,7 +33,7 @@ class GaussianNB:
 
 if __name__ == "__main__":
     import numpy as np
-    from sklearn.datasets import load_iris
+    from datasets.dataset import load_iris
     from sklearn.model_selection import train_test_split
 
     data = load_iris()
@@ -45,4 +45,12 @@ if __name__ == "__main__":
     gnb = GaussianNB()
     gnb.fit(X_train, Y_train)
     Y_pred = gnb.predict(X_test)
+    del gnb
     print('acc:{}'.format(np.sum(Y_pred == Y_test)/len(Y_test)))
+
+    from sklearn.naive_bayes import GaussianNB
+
+    gnb = GaussianNB()
+    gnb.fit(X_train, Y_train)
+    Y_pred = gnb.predict(X_test)
+    print('sklearn acc:{}'.format(np.sum(Y_pred == Y_test) / len(Y_test)))

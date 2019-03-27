@@ -47,7 +47,7 @@ class KNN:
 
 if __name__ == "__main__":
     import numpy as np
-    from sklearn.datasets import load_breast_cancer
+    from datasets.dataset import load_breast_cancer
     from sklearn.model_selection import train_test_split
 
     data = load_breast_cancer()
@@ -59,4 +59,11 @@ if __name__ == "__main__":
     knn = KNN()
     knn.fit(X_train, Y_train)
     Y_pred = knn.predict(X_test)
+    del knn
     print('acc:{}'.format(np.sum(Y_pred == Y_test)/len(Y_test)))
+
+    from sklearn.neighbors import KNeighborsClassifier
+    knn=KNeighborsClassifier()
+    knn.fit(X_train, Y_train)
+    Y_pred = knn.predict(X_test)
+    print('sklearn acc:{}'.format(np.sum(Y_pred == Y_test) / len(Y_test)))

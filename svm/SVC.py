@@ -186,7 +186,7 @@ class SVC:
 
 if __name__ == '__main__':
     import numpy as np
-    from sklearn.datasets import load_breast_cancer
+    from datasets.dataset import load_breast_cancer
 
     data = load_breast_cancer()
     X, Y = data.data, data.target
@@ -199,6 +199,7 @@ if __name__ == '__main__':
     svc = SVC(max_iter=50)
     svc.fit(X_train, Y_train)
     Y_pred = svc.predict(X_test)
+    del svc
     print('acc:{}'.format(np.sum(Y_pred == Y_test) / len(Y_test)))
 
     from sklearn.svm import SVC
