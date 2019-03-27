@@ -43,9 +43,8 @@ def ACC(Y_true,Y_pred):
     return np.sum(Y_true==Y_pred)/len(Y_true)
 
 if __name__=='__main__':
-    import numpy as np
-    from sklearn.datasets import load_breast_cancer
-    from sklearn.model_selection import train_test_split
+    from datasets.dataset import load_breast_cancer
+    from model_selection.train_test_split import train_test_split
 
     data = load_breast_cancer()
     X = data.data

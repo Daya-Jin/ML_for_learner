@@ -1,4 +1,5 @@
 from scipy.stats import multivariate_normal  # 生成多维概率分布的方法
+import numpy as np
 
 
 class GaussianMixture:
@@ -67,9 +68,8 @@ class GaussianMixture:
 
 
 if __name__ == '__main__':
-    import numpy as np
     from sklearn.datasets.samples_generator import make_blobs
-    from sklearn.model_selection import train_test_split
+    from model_selection.train_test_split import train_test_split
 
     X, _ = make_blobs(cluster_std=1.5, random_state=42, n_samples=1000, centers=3)
     X = np.dot(X, np.random.RandomState(0).randn(2, 2))  # 生成斜形类簇

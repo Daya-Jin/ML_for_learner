@@ -54,7 +54,7 @@ def RMSE(y_true, y_pred):
 
 
 if __name__ == "__main__":
-    from sklearn.datasets import load_boston
+    from datasets.dataset import load_boston
     from model_selection.train_test_split import train_test_split
 
     data = load_boston()

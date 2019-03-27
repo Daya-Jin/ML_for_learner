@@ -1,3 +1,6 @@
+import numpy as np
+
+
 class PCA:
     def __init__(self, n_components=None):
         self.n_components_ = n_components
@@ -24,14 +27,13 @@ class PCA:
 
 
 if __name__ == '__main__':
-    import numpy as np
-    from sklearn.datasets import load_wine
+    from datasets.dataset import load_wine
 
     data = load_wine()
     X = data.data
     Y = data.target
 
-    from sklearn.preprocessing import StandardScaler
+    from preprocessing.StandardScaler import StandardScaler
 
     X = StandardScaler().fit_transform(X)
 

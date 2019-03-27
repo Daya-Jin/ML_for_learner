@@ -136,7 +136,7 @@ if __name__ == '__main__':
     X, Y = data.data, data.target
     del data
 
-    from sklearn.model_selection import train_test_split
+    from model_selection.train_test_split import train_test_split
 
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
 
@@ -150,4 +150,4 @@ if __name__ == '__main__':
     tree_reg = DecisionTreeRegressor()
     tree_reg.fit(X_train, Y_train)
     Y_pred = tree_reg.predict(X_test)
-    print('MSE:{}'.format(np.mean(np.square(Y_pred - Y_test))))
+    print('sklearn MSE:{}'.format(np.mean(np.square(Y_pred - Y_test))))

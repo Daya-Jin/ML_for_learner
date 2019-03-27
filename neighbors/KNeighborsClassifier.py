@@ -48,7 +48,7 @@ class KNN:
 if __name__ == "__main__":
     import numpy as np
     from datasets.dataset import load_breast_cancer
-    from sklearn.model_selection import train_test_split
+    from model_selection.train_test_split import train_test_split
 
     data = load_breast_cancer()
     X = data.data

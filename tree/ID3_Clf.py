@@ -1,3 +1,6 @@
+import pandas as pd
+import numpy as np
+
 class ID3:
     def __init__(self):
         self.tree = None
@@ -112,9 +115,7 @@ def load_zoo():
 
 
 if __name__ == '__main__':
-    import pandas as pd
-    import numpy as np
-    from sklearn.model_selection import train_test_split
+    from model_selection.train_test_split import train_test_split
 
     data = load_zoo()
     X = data.data

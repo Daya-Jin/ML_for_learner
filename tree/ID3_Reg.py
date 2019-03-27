@@ -102,9 +102,7 @@ def load_bike():
     return dataClass
 
 if __name__ == '__main__':
-    import pandas as pd
-    import numpy as np
-    from sklearn.model_selection import train_test_split
+    from model_selection.train_test_split import train_test_split
 
     data = load_bike()
     X = data.data

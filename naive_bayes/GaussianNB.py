@@ -1,3 +1,6 @@
+import numpy as np
+
+
 class GaussianNB:
     def __init__(self):
         self.Y_prob = None
@@ -7,7 +10,7 @@ class GaussianNB:
     # 计算类分布概率
     def __cls_prob(self, Y_train):
         uni_val, cnt = np.unique(Y, return_counts=True)
-        self.Y_prob = np.array([cnt[idx]/np.sum(cnt)
+        self.Y_prob = np.array([cnt[idx] / np.sum(cnt)
                                 for idx in range(len(uni_val))])
 
     # 计算各特征在各类别下的统计值
@@ -26,15 +29,16 @@ class GaussianNB:
         self.__mean_std(X_train, Y_train)
 
     def __post_prob(self, x_test):
-        return np.log2(1/(np.sqrt(2*np.pi)*self.std)*np.exp(-np.square(x_test-self.mean)/(2*np.square(self.std)))).sum(axis=1)
+        return np.log2(1 / (np.sqrt(2 * np.pi) * self.std) * np.exp(
+            -np.square(x_test - self.mean) / (2 * np.square(self.std)))).sum(axis=1)
 
     def predict(self, X_test):
-        return np.array([np.argmax(self.__post_prob(item)+np.log2(self.Y_prob)) for item in X_test])
+        return np.array([np.argmax(self.__post_prob(item) + np.log2(self.Y_prob)) for item in X_test])
+
 
 if __name__ == "__main__":
-    import numpy as np
     from datasets.dataset import load_iris
-    from sklearn.model_selection import train_test_split
+    from model_selection.train_test_split import train_test_split
 
     data = load_iris()
     X = data.data
@@ -46,7 +50,7 @@ if __name__ == "__main__":
     gnb.fit(X_train, Y_train)
     Y_pred = gnb.predict(X_test)
     del gnb
-    print('acc:{}'.format(np.sum(Y_pred == Y_test)/len(Y_test)))
+    print('acc:{}'.format(np.sum(Y_pred == Y_test) / len(Y_test)))
 
     from sklearn.naive_bayes import GaussianNB
 
