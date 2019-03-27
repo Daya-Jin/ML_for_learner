@@ -2,8 +2,15 @@ import numpy as np
 
 
 def f1_score(Y_true, Y_pred, average=None):
+    '''
+    :param Y_true:
+    :param Y_pred:
+    :param average: 均化方式，可选参数'micro'，'macro'，'weighted'
+    该参数置空时返回所有类别的F1分数
+    :return:
+    '''
     uni_labels, label_weight = np.unique(Y_true, return_counts=True)
-    label_weight = label_weight / len(Y_true)  # 标签权重，用于计算weighted f1
+    label_weight = label_weight / len(Y_true)  # 类分布概率，用作标签权重
     total_TP = total_FP = total_FN = 0  # 用于计算micro f1的总计数
 
     f1_scores = list()

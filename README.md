@@ -1,5 +1,11 @@
 # ML_for_learner
-该库主要放一些机器学习算法的Python实现，依赖库为numpy。
+该项目使用numpy实现一个类scikit-learn的机器学习库，对于相关的知识，均配有blog文章对其理论进行讲解，对于部分功能，还配有notebook分析实现上的细节。
+
+该项目的初衷是为那些算法学习者提供一个从理论到实现的全套知识平台。除此之外，该项目不仅限于学习者，我会尽可能的保证该项目中各模块的可用性。由于本人学识有限，如果您在blog、notebook或者code中发现任何纰漏或bug，请迅速联系我，当然也可以在项目页面提issue，谢谢。
+
+QQ: 435248055
+
+WeChat: QQ435248055
 
 ## Supervised learning
 
@@ -24,6 +30,18 @@
 |-|-|-|-|
 |Gaussian mixture models|[Gaussian Mixture](https://daya-jin.github.io/2019/03/15/Gaussian_Mixture_Models/)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/mixture/GaussianMixture.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/mixture/GaussianMixture.py)|
 |Clustering|[K-means](https://daya-jin.github.io/2018/12/01/KMeans/)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/cluster/KMeans.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/cluster/KMeans.py)|
+
+## Model selection and evaluation
+
+|Class|Approach|code|
+|-|-|-|
+|metrics|||
+||||
+||||
+||||
+||||
+||||
+||||
 
 ## Preprocessing data
 

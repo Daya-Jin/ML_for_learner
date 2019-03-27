@@ -2,6 +2,13 @@ import numpy as np
 
 
 def log_loss(Y_true, Y_pred, eps=1e-15):
+    '''
+    交叉熵计算函数
+    :param Y_true:
+    :param Y_pred:
+    :param eps: 极小值，用于截断{0,1}值
+    :return:
+    '''
     Y_true = np.array(Y_true).astype(float)
     Y_pred = np.array(Y_pred).astype(float)
 
