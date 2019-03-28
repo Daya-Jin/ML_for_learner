@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="117aa67f-deb7-4f1a-afd8-3600c2185849" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cluster/KMeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/cluster/KMeans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decomposition/PCA.py" beforeDir="false" afterPath="$PROJECT_DIR$/decomposition/PCA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ensemble/AdaBoostClassifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/ensemble/AdaBoostClassifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ensemble/RandomForestClassifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/ensemble/RandomForestClassifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ensemble/RandomForestRegressor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ensemble/RandomForestRegressor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_model/LinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/linear_model/LinearRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_model/LogisticRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/linear_model/LogisticRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mixture/GaussianMixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/mixture/GaussianMixture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naive_bayes/GaussianNB.py" beforeDir="false" afterPath="$PROJECT_DIR$/naive_bayes/GaussianNB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neighbors/KNeighborsClassifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/neighbors/KNeighborsClassifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svm/SVC.py" beforeDir="false" afterPath="$PROJECT_DIR$/svm/SVC.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/DecisionTreeClassifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/DecisionTreeClassifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/DecisionTreeRegressor.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/DecisionTreeRegressor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/ID3_Clf.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/ID3_Clf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/ID3_Reg.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/ID3_Reg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,55 +66,64 @@
     <session id="1107530755">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="6" />
-          <entry key="project.open.time.6" value="11" />
+          <entry key="project.open.time.5" value="7" />
+          <entry key="project.open.time.6" value="12" />
           <entry key="project.open.time.7" value="4" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="2" />
           <entry key="ipynb" value="1" />
-          <entry key="py" value="73" />
+          <entry key="py" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="73" />
+          <entry key="Python" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7" />
           <entry key="dummy" value="10" />
-          <entry key="py" value="12793" />
+          <entry key="py" value="13312" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="12800" />
+          <entry key="Python" value="13319" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tree/ID3_Clf.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/discriminant_analysis/LinearDiscriminantAnalysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="128" column="37" lean-forward="true" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
+            <state relative-caret-position="97">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <marker date="1553783636524" expanded="true" signature="54:59" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cluster/KMeans.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
             </state>
           </provider>
         </entry>
@@ -207,6 +202,8 @@
         <option value="$PROJECT_DIR$/tree/DecisionTreeClassifier.py" />
         <option value="$PROJECT_DIR$/tree/DecisionTreeRegressor.py" />
         <option value="$PROJECT_DIR$/tree/ID3_Clf.py" />
+        <option value="$PROJECT_DIR$/discriminant_analysis/__init__.py" />
+        <option value="$PROJECT_DIR$/discriminant_analysis/LinearDiscriminantAnalysis.py" />
       </list>
     </option>
   </component>
@@ -217,8 +214,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="92" />
-    <option name="y" value="75" />
+    <option name="x" value="-52" />
+    <option name="y" value="137" />
     <option name="width" value="1445" />
     <option name="height" value="885" />
   </component>
@@ -258,7 +255,7 @@
             <path>
               <item name="ML_for_learner" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML_for_learner" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -303,11 +300,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ID3_Clf">
+  <component name="RunManager" selected="Python.LinearDiscriminantAnalysis">
     <configuration name="DecisionTreeClassifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tree" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -327,6 +327,9 @@
       <module name="ML_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tree" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -346,6 +349,9 @@
       <module name="ML_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tree" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -365,6 +371,9 @@
       <module name="ML_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tree" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -380,17 +389,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SVC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LinearDiscriminantAnalysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/svm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/discriminant_analysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/svm/SVC.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/discriminant_analysis/LinearDiscriminantAnalysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -422,19 +431,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.SVC" />
       <item itemvalue="Python.ID3_Reg" />
       <item itemvalue="Python.DecisionTreeClassifier" />
       <item itemvalue="Python.DecisionTreeRegressor" />
       <item itemvalue="Python.ID3_Clf" />
+      <item itemvalue="Python.LinearDiscriminantAnalysis" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LinearDiscriminantAnalysis" />
         <item itemvalue="Python.ID3_Clf" />
         <item itemvalue="Python.DecisionTreeRegressor" />
         <item itemvalue="Python.DecisionTreeClassifier" />
         <item itemvalue="Python.ID3_Reg" />
-        <item itemvalue="Python.SVC" />
       </list>
     </recent_temporary>
   </component>
@@ -457,10 +466,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="60" width="1156" height="708" extended-state="0" />
+    <frame x="-41" y="110" width="1156" height="708" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20400728" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21129327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -475,12 +484,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1575592" side_tool="true" weight="0.3252174" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3298611" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.8424408" visible="true" weight="0.32347825" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8424408" visible="true" weight="0.32347825" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.32934132" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.3287796" />
+      <window_info active="true" anchor="right" id="SciView" order="4" visible="true" weight="0.3287796" />
       <window_info anchor="right" x="0" y="0" width="215" height="508" id="Documentation" order="5" side_tool="true" weight="0.32934132" />
       <window_info anchor="right" id="Database" order="6" weight="0.32934132" />
     </layout>
@@ -568,11 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1553656527711" expanded="true" signature="254:259" ph="..." />
-            <marker date="1553656527711" expanded="true" signature="452:453" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,20 +615,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluster/KMeans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/metrics/f1_score.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
-          <folding>
-            <marker date="1553696556971" expanded="true" signature="452:461" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -635,23 +629,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ensemble/AdaBoostClassifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ensemble/RandomForestClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,9 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="71" column="35" lean-forward="true" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -683,9 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -717,9 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
           <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -727,9 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -740,13 +709,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/discriminant_analysis/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/tree/ID3_Clf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="128" column="37" lean-forward="true" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
+        <state relative-caret-position="194">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ensemble/AdaBoostClassifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discriminant_analysis/LinearDiscriminantAnalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <marker date="1553783636524" expanded="true" signature="54:59" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster/KMeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
         </state>
       </provider>
     </entry>
