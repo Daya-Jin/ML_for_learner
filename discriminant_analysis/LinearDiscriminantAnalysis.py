@@ -5,7 +5,7 @@ class LinearDiscriminantAnalysis:
     def __init__(self, n_components=2):
         '''
 
-        :param n_components:
+        :param n_components: 降维的维数
         '''
         self.n_components = n_components
         self.means_ = None  # 类均值
