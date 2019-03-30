@@ -39,8 +39,8 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 |[Metrics](https://daya-jin.github.io/2019/03/27/Evaluation_Metircs/)|Accuracy|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/accuracy_score.py)|
 ||Log loss|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/log_loss.py)|
 ||F1-score|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/f1_score.py)|
-||[AUC](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/AUC.ipynb)||
-
+||[AUC](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/AUC.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/roc_auc_score.py)|
+||[Euclidean Distances]()||
 
 ## Preprocessing data
 
