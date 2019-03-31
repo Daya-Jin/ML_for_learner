@@ -40,7 +40,7 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 ||Log loss|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/log_loss.py)|
 ||F1-score|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/f1_score.py)|
 ||[AUC](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/AUC.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/roc_auc_score.py)|
-||[Euclidean Distances]()||
+||[Euclidean Distances](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/pairwise/euclidean_distances.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/pairwise/euclidean_distances.py)|
 
 ## Preprocessing data
 
