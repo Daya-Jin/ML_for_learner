@@ -2,10 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="117aa67f-deb7-4f1a-afd8-3600c2185849" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cluster/.ipynb_checkpoints/DBSCAN-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/cluster/.ipynb_checkpoints/DBSCAN-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cluster/DBSCAN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/cluster/DBSCAN.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metrics/pairwise/euclidean_distances.py" beforeDir="false" afterPath="$PROJECT_DIR$/metrics/pairwise/euclidean_distances.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decomposition/.ipynb_checkpoints/PCA-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/decomposition/.ipynb_checkpoints/PCA-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decomposition/PCA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/decomposition/PCA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discriminant_analysis/.ipynb_checkpoints/LinearDiscriminantAnalysis-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/discriminant_analysis/.ipynb_checkpoints/LinearDiscriminantAnalysis-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discriminant_analysis/LinearDiscriminantAnalysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/discriminant_analysis/LinearDiscriminantAnalysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ensemble/.ipynb_checkpoints/AdaBoostClassifier-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ensemble/.ipynb_checkpoints/AdaBoostClassifier-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ensemble/.ipynb_checkpoints/RandomForestClassifier-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ensemble/.ipynb_checkpoints/RandomForestClassifier-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ensemble/.ipynb_checkpoints/RandomForestRegressor-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ensemble/.ipynb_checkpoints/RandomForestRegressor-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ensemble/AdaBoostClassifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ensemble/AdaBoostClassifier.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ensemble/RandomForestClassifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ensemble/RandomForestClassifier.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ensemble/RandomForestRegressor.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ensemble/RandomForestRegressor.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_model/.ipynb_checkpoints/LinearRegression-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/linear_model/.ipynb_checkpoints/LinearRegression-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_model/.ipynb_checkpoints/LogisticRegression-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/linear_model/.ipynb_checkpoints/LogisticRegression-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_model/LinearRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/linear_model/LinearRegression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_model/LogisticRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/linear_model/LogisticRegression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mixture/.ipynb_checkpoints/GaussianMixture-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/mixture/.ipynb_checkpoints/GaussianMixture-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mixture/GaussianMixture.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/mixture/GaussianMixture.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naive_bayes/.ipynb_checkpoints/Gaussian Naive Bayes-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/naive_bayes/.ipynb_checkpoints/Gaussian Naive Bayes-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naive_bayes/Gaussian Naive Bayes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/naive_bayes/Gaussian Naive Bayes.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neighbors/.ipynb_checkpoints/KNN-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/neighbors/.ipynb_checkpoints/KNN-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neighbors/KNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/neighbors/KNN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm/.ipynb_checkpoints/SMO-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/svm/.ipynb_checkpoints/SMO-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm/SMO.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/svm/SMO.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/.ipynb_checkpoints/DecisionTreeClassifier-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tree/.ipynb_checkpoints/DecisionTreeClassifier-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/.ipynb_checkpoints/DecisionTreeRegressor-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tree/.ipynb_checkpoints/DecisionTreeRegressor-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/.ipynb_checkpoints/add_param-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tree/.ipynb_checkpoints/add_param-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/DecisionTreeClassifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tree/DecisionTreeClassifier.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/DecisionTreeRegressor.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tree/DecisionTreeRegressor.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/add_param.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tree/add_param.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +96,7 @@
     <session id="1107530755">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="29" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -83,14 +110,14 @@
         <counts>
           <entry key="LICENSE" value="2" />
           <entry key="ipynb" value="1" />
-          <entry key="py" value="84" />
+          <entry key="py" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="84" />
+          <entry key="Python" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -113,8 +140,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cluster/DBSCAN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="132">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <marker date="1554035367996" expanded="true" signature="103:108" ph="..." />
@@ -212,8 +239,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-318" />
-    <option name="y" value="196" />
+    <option name="x" value="-43" />
+    <option name="y" value="308" />
     <option name="width" value="1449" />
     <option name="height" value="885" />
   </component>
@@ -248,11 +275,6 @@
             <path>
               <item name="ML_for_learner" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML_for_learner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML_for_learner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML_for_learner" type="462c0819:PsiDirectoryNode" />
-              <item name="cluster" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -461,10 +483,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-44" y="102" width="1159" height="708" extended-state="0" />
+    <frame x="-34" y="247" width="1159" height="708" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22161672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22161672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -579,6 +601,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <marker date="1553668188093" expanded="true" signature="101:106" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -625,13 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="71" column="35" lean-forward="true" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linear_model/LinearRegression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="68" column="37" lean-forward="true" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -755,10 +773,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/linear_model/LinearRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cluster/DBSCAN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="132">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <marker date="1554035367996" expanded="true" signature="103:108" ph="..." />

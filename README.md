@@ -1,11 +1,13 @@
 # ML_for_learner
 该项目旨在使用numpy实现一个类scikit-learn的机器学习库，对于相关的知识，均配有blog文章对其理论进行讲解，对于部分功能，还配有notebook分析代码实现上的细节。该项目的初衷是为那些算法学习者提供从理论到实现的一站式服务。
 
-由于本人学识有限，并且没有Python开发经验，该库目前还是一个非常松散的代码集合体。如果您在blog、notebook或者code中发现任何纰漏或bug，请迅速联系我，当然也可以在项目页面提issue，谢谢。
+由于本人学识有限，并且没有Python开发经验，该库目前还是一个非常松散的代码集合体。如果你在blog、notebook或者code中发现任何纰漏或bug，请迅速联系我，当然也可以直接在项目页面提issue，谢谢。
 
 QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https://daya-jin.github.io/)
 
 ---
+
+点击算法名称进入相应Blog了解算法理论，notebook指导如何step-by-step的去实现该算法，code为模块化的代码文件。
 
 ## Supervised learning
 
@@ -30,6 +32,7 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 |-|-|-|-|
 |Gaussian mixture models|[Gaussian Mixture](https://daya-jin.github.io/2019/03/15/Gaussian_Mixture_Models/)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/mixture/GaussianMixture.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/mixture/GaussianMixture.py)|
 |Clustering|[K-means](https://daya-jin.github.io/2018/12/01/KMeans/)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/cluster/KMeans.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/cluster/KMeans.py)|
+||[DBSCAN](https://daya-jin.github.io/2018/12/01/DBSCAN/)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/cluster/DBSCAN.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/cluster/DBSCAN.py)|
 
 ## Model selection and evaluation
 
@@ -54,3 +57,7 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 ## Known Issues
 
 ```/datasets/dataset.py```中所有的```load_*()```函数均存在路径问题，解决该问题待参阅scikit-learn源码。
+
+相当一部分代码没有实现重用性。
+
+random forest没有实现并行。
