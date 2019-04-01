@@ -1,5 +1,5 @@
 import numpy as np
-from metrics.pairwise.euclidean_distances import euclidean_distances
+from scipy.spatial import KDTree
 
 
 class DBSCAN:
@@ -17,9 +17,9 @@ class DBSCAN:
     def fit(self, X):
         n_samples = len(X)
 
-        dist_mat = euclidean_distances(X)  # pair-wise距离矩阵
+        kd_tree = KDTree(X)  # 构造KD树
 
-        density_arr = np.array([np.sum(dist <= self.eps) for dist in dist_mat])  # 密度数组
+        density_arr = np.array([len(kd_tree.query_ball_point(x, self.eps)) for x in X])  # 密度数组
 
         visited_arr = [False for _ in range(n_samples)]  # 访问标记数组
 
@@ -36,9 +36,11 @@ class DBSCAN:
             if density_arr[sample_idx] == 1 or density_arr[sample_idx] < self.min_samples:
                 continue
 
+            # 核心对象
             else:
-                cores = [idx for idx in range(n_samples) if
-                         dist_mat[idx, sample_idx] <= self.eps and density_arr[idx] >= self.min_samples]
+                # 找出邻域中的所有核心对象，包括自身
+                cores = [idx for idx in kd_tree.query_ball_point(X[sample_idx], self.eps) if
+                         density_arr[idx] >= self.min_samples]
                 k += 1
                 self.labels_[sample_idx] = k
                 self.core_sample_indices_.append(sample_idx)
@@ -50,7 +52,7 @@ class DBSCAN:
                         visited_arr[cur_core] = True
                         self.labels_[cur_core] = k
 
-                        neighbors = [idx for idx in range(n_samples) if dist_mat[idx, cur_core] <= self.eps]
+                        neighbors = kd_tree.query_ball_point(X[cur_core], self.eps)
                         neighbor_cores = [idx for idx in neighbors if
                                           idx not in cores and density_arr[idx] >= self.min_samples]
                         neighbor_boards = [idx for idx in neighbors if density_arr[idx] < self.min_samples]

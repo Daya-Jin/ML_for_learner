@@ -72,4 +72,5 @@ if __name__ == '__main__':
     rf_clf = RandomForestClassifier()
     rf_clf.fit(X_train, Y_train)
     Y_pred = rf_clf.predict(X_test)
+
     print('rf acc:{}'.format(np.sum(Y_pred == Y_test) / len(Y_test)))

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117aa67f-deb7-4f1a-afd8-3600c2185849" name="Default Changelist" comment="" />
+    <list default="true" id="117aa67f-deb7-4f1a-afd8-3600c2185849" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cluster/.ipynb_checkpoints/DBSCAN-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/cluster/.ipynb_checkpoints/DBSCAN-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluster/DBSCAN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/cluster/DBSCAN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluster/DBSCAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/cluster/DBSCAN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ensemble/RandomForestClassifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/ensemble/RandomForestClassifier.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,62 +70,69 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="30" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="7" />
           <entry key="project.open.time.6" value="15" />
           <entry key="project.open.time.7" value="5" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="2" />
           <entry key="ipynb" value="1" />
-          <entry key="py" value="86" />
+          <entry key="py" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="86" />
+          <entry key="Python" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7" />
           <entry key="dummy" value="10" />
-          <entry key="py" value="15159" />
+          <entry key="py" value="15556" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="15166" />
+          <entry key="Python" value="15563" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cluster/DBSCAN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="44">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1554035367996" expanded="true" signature="103:108" ph="..." />
+                <marker date="1554128231806" expanded="true" signature="67:72" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../DataStructureAndAlgorithm/need format.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ensemble/RandomForestClassifier.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -185,7 +197,6 @@
         <option value="$PROJECT_DIR$/cluster/KMeans.py" />
         <option value="$PROJECT_DIR$/decomposition/PCA.py" />
         <option value="$PROJECT_DIR$/ensemble/AdaBoostClassifier.py" />
-        <option value="$PROJECT_DIR$/ensemble/RandomForestClassifier.py" />
         <option value="$PROJECT_DIR$/ensemble/RandomForestRegressor.py" />
         <option value="$PROJECT_DIR$/linear_model/LinearRegression.py" />
         <option value="$PROJECT_DIR$/linear_model/LogisticRegression.py" />
@@ -201,6 +212,7 @@
         <option value="$PROJECT_DIR$/discriminant_analysis/LinearDiscriminantAnalysis.py" />
         <option value="$PROJECT_DIR$/metrics/roc_auc_score.py" />
         <option value="$PROJECT_DIR$/metrics/pairwise/euclidean_distances.py" />
+        <option value="$PROJECT_DIR$/ensemble/RandomForestClassifier.py" />
         <option value="$PROJECT_DIR$/cluster/DBSCAN.py" />
       </list>
     </option>
@@ -212,8 +224,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="692" />
-    <option name="y" value="158" />
+    <option name="x" value="-9" />
+    <option name="y" value="142" />
     <option name="width" value="1450" />
     <option name="height" value="885" />
   </component>
@@ -264,7 +276,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataStructureAndAlgorithm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -298,9 +310,6 @@
       <module name="ML_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cluster" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -308,28 +317,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cluster/DBSCAN.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ID3_Clf" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML_for_learner" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tree/ID3_Clf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -352,6 +339,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/discriminant_analysis/LinearDiscriminantAnalysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RandomForestClassifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_for_learner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ensemble" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ensemble/RandomForestClassifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -427,19 +433,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ID3_Clf" />
       <item itemvalue="Python.LinearDiscriminantAnalysis" />
       <item itemvalue="Python.roc_auc_score" />
       <item itemvalue="Python.euclidean_distances" />
       <item itemvalue="Python.DBSCAN" />
+      <item itemvalue="Python.RandomForestClassifier" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.DBSCAN" />
+        <item itemvalue="Python.RandomForestClassifier" />
         <item itemvalue="Python.euclidean_distances" />
         <item itemvalue="Python.roc_auc_score" />
         <item itemvalue="Python.LinearDiscriminantAnalysis" />
-        <item itemvalue="Python.ID3_Clf" />
       </list>
     </recent_temporary>
   </component>
@@ -462,9 +468,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="554" y="127" width="1160" height="708" extended-state="0" />
+    <frame x="-7" y="114" width="1160" height="708" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22595282" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22958258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -479,12 +486,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1575592" side_tool="true" weight="0.3252174" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3298611" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8424408" type="SLIDING" weight="0.32347825" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8424408" visible="true" weight="0.32347825" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.32934132" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.32788375" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.3275862" />
       <window_info anchor="right" x="0" y="0" width="215" height="508" id="Documentation" order="5" side_tool="true" weight="0.32934132" />
       <window_info anchor="right" id="Database" order="6" weight="0.32934132" />
     </layout>
@@ -611,13 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1012">
           <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ensemble/RandomForestClassifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>
@@ -749,19 +749,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluster/DBSCAN.py">
+    <entry file="file://$PROJECT_DIR$/../DataStructureAndAlgorithm/need format.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ensemble/RandomForestClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="198">
+          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1554035367996" expanded="true" signature="103:108" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataStructureAndAlgorithm/need format.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/cluster/DBSCAN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1554128231806" expanded="true" signature="67:72" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
