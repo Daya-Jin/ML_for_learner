@@ -56,10 +56,8 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 
 ## Known Issues
 
-```/datasets/dataset.py```中所有的```load_*()```函数均存在路径问题，解决该问题待参阅scikit-learn源码。
-
-相当一部分代码没有实现重用性。
+部分代码重用性较低。
 
 random forest没有实现并行。
 
-LDA代码存在欠缺。
+LDA代码存在功能欠缺。

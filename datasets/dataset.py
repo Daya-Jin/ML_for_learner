@@ -1,5 +1,6 @@
 import pandas as pd
 from collections import namedtuple
+import os
 
 data_structure = namedtuple('data_structure', ['data', 'target'])
 
@@ -10,42 +11,48 @@ data_structure = namedtuple('data_structure', ['data', 'target'])
 
 
 def load_boston():
-    df = pd.read_csv('../datasets/housing/housing.data', header=None)
+    path = os.path.join(os.path.dirname(__file__), 'housing', 'housing.data')
+    df = pd.read_csv(path, header=None)
     data = df.iloc[:, :-1].values
     target = df.iloc[:, -1].values
     return data_structure(data, target)
 
 
 def load_iris():
-    df = pd.read_csv('../datasets/iris/bezdekIris.data', header=None)
+    path = os.path.join(os.path.dirname(__file__), 'iris', 'bezdekIris.data')
+    df = pd.read_csv(path, header=None)
     data = df.iloc[:, :-1].values
     target = df.iloc[:, -1].values
     return data_structure(data, target)
 
 
 def load_diabetes():
-    df = pd.read_csv('../datasets/diabetes/diabetes.tab.txt', sep='\t')
+    path = os.path.join(os.path.dirname(__file__), 'diabetes', 'diabetes.tab.txt')
+    df = pd.read_csv(path, sep='\t')
     data = df.iloc[:, :-1].values
     target = df.iloc[:, -1].values
     return data_structure(data, target)
 
 
 def load_digits():
-    df = pd.read_csv('../datasets/optdigits/optdigits.tes', header=None)
+    path = os.path.join(os.path.dirname(__file__), 'optdigits', 'optdigits.tes')
+    df = pd.read_csv(path, header=None)
     data = df.iloc[:, :-1].values
     target = df.iloc[:, -1].values
     return data_structure(data, target)
 
 
 def load_wine():
-    df = pd.read_csv('../datasets/wine/wine.data', header=None)
+    path = os.path.join(os.path.dirname(__file__), 'wine', 'wine.data')
+    df = pd.read_csv(path, header=None)
     data = df.iloc[:, 1:].values
     target = df.iloc[:, 0].values - 1
     return data_structure(data, target)
 
 
 def load_breast_cancer():
-    df = pd.read_csv('../datasets/breast-cancer-wisconsin/wdbc.data', header=None)
+    path = os.path.join(os.path.dirname(__file__), 'breast-cancer-wisconsin', 'wdbc.data')
+    df = pd.read_csv(path, header=None)
     data = df.iloc[:, 2:].values
     target = df.iloc[:, 1].values
     return data_structure(data, target)
