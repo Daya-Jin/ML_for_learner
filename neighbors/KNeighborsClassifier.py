@@ -1,40 +1,25 @@
-# 欧氏距离
-def E_dist(a:list,b:list):
-    a=np.array(a)
-    b=np.array(b)
-    return np.linalg.norm(a-b)
-
 from collections import Counter
+from scipy.spatial import KDTree
 
 
 class KNN:
-    def __init__(self, n_neighbors=5, metric=E_dist):
-        self.X_train = None
+    def __init__(self, n_neighbors=5):
         self.Y_train = None
         self.k = n_neighbors
-        self.metric = metric
+        self.kd_tree = None
 
     def fit(self, X_train, Y_train):
-        # 模型不改变输入数据，所以这里等号赋值没有问题
-        self.X_train = X_train
         self.Y_train = Y_train
+        self.kd_tree = KDTree(X_train)
 
     def __get_nb_of_one(self, x_test):
-        dists = []
-
-        for idx in range(len(self.X_train)):
-            cur_dist = self.metric(x_test, self.X_train[idx])
-            dists.append((self.Y_train[idx], cur_dist))    # 首位为标签，末位为距离
-        dists.sort(key=lambda x: x[1])    # 按照距离排序
-
-        return dists[:self.k]
+        dists, idxs = self.kd_tree.query(x_test, self.k)
+        return zip(self.Y_train[idxs], dists)
 
     def __vote(self, neighbors):
         counter = Counter()
-        for idx in range(len(neighbors)):
-            dist = neighbors[idx][1]
-            label = neighbors[idx][0]
-            counter[label] += 1/(dist+1)    # 首位(标签)计数，权重为距离的倒数
+        for label, dist in neighbors:
+            counter[label] += 1 / (dist + 1)  # 首位(标签)计数，权重为距离的倒数
         return counter.most_common(1)[0][0]
 
     def predict(self, X_test):
@@ -59,11 +44,12 @@ if __name__ == "__main__":
     knn = KNN()
     knn.fit(X_train, Y_train)
     Y_pred = knn.predict(X_test)
-    del knn
-    print('acc:{}'.format(np.sum(Y_pred == Y_test)/len(Y_test)))
+    print('acc:{}'.format(np.sum(Y_pred == Y_test) / len(Y_test)))
 
+    del knn, Y_pred
     from sklearn.neighbors import KNeighborsClassifier
-    knn=KNeighborsClassifier()
+
+    knn = KNeighborsClassifier()
     knn.fit(X_train, Y_train)
     Y_pred = knn.predict(X_test)
     print('sklearn acc:{}'.format(np.sum(Y_pred == Y_test) / len(Y_test)))

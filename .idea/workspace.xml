@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="117aa67f-deb7-4f1a-afd8-3600c2185849" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cluster/.ipynb_checkpoints/DBSCAN-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/cluster/.ipynb_checkpoints/DBSCAN-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cluster/DBSCAN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/cluster/DBSCAN.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster/DBSCAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/cluster/DBSCAN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ensemble/RandomForestClassifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/ensemble/RandomForestClassifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neighbors/.ipynb_checkpoints/KNN-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/neighbors/.ipynb_checkpoints/KNN-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neighbors/KNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/neighbors/KNN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neighbors/KNeighborsClassifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/neighbors/KNeighborsClassifier.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,38 +83,38 @@
         <counts>
           <entry key="LICENSE" value="2" />
           <entry key="ipynb" value="1" />
-          <entry key="py" value="87" />
+          <entry key="py" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="87" />
+          <entry key="Python" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7" />
           <entry key="dummy" value="10" />
-          <entry key="py" value="15556" />
+          <entry key="py" value="15711" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="15563" />
+          <entry key="Python" value="15718" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cluster/DBSCAN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="66">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <marker date="1554128231806" expanded="true" signature="67:72" ph="..." />
@@ -123,13 +123,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ensemble/RandomForestClassifier.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/neighbors/KNeighborsClassifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+            <state relative-caret-position="132">
+              <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,6 +157,7 @@
       <find>DecisionTreeRegressor</find>
       <find>MSE</find>
       <find>self.trees</find>
+      <find>E_dist</find>
     </findStrings>
     <replaceStrings>
       <replace>DecisionTreeClassifier</replace>
@@ -202,7 +203,6 @@
         <option value="$PROJECT_DIR$/linear_model/LogisticRegression.py" />
         <option value="$PROJECT_DIR$/mixture/GaussianMixture.py" />
         <option value="$PROJECT_DIR$/naive_bayes/GaussianNB.py" />
-        <option value="$PROJECT_DIR$/neighbors/KNeighborsClassifier.py" />
         <option value="$PROJECT_DIR$/svm/SVC.py" />
         <option value="$PROJECT_DIR$/tree/ID3_Reg.py" />
         <option value="$PROJECT_DIR$/tree/DecisionTreeClassifier.py" />
@@ -214,6 +214,7 @@
         <option value="$PROJECT_DIR$/metrics/pairwise/euclidean_distances.py" />
         <option value="$PROJECT_DIR$/ensemble/RandomForestClassifier.py" />
         <option value="$PROJECT_DIR$/cluster/DBSCAN.py" />
+        <option value="$PROJECT_DIR$/neighbors/KNeighborsClassifier.py" />
       </list>
     </option>
   </component>
@@ -262,6 +263,11 @@
               <item name="ML_for_learner" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML_for_learner" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ML_for_learner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_for_learner" type="462c0819:PsiDirectoryNode" />
+              <item name="neighbors" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -305,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DBSCAN">
+  <component name="RunManager" selected="Python.KNeighborsClassifier">
     <configuration name="DBSCAN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -325,20 +331,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LinearDiscriminantAnalysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="KNeighborsClassifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/discriminant_analysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neighbors" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/discriminant_analysis/LinearDiscriminantAnalysis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neighbors/KNeighborsClassifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -433,19 +436,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.LinearDiscriminantAnalysis" />
       <item itemvalue="Python.roc_auc_score" />
       <item itemvalue="Python.euclidean_distances" />
       <item itemvalue="Python.DBSCAN" />
       <item itemvalue="Python.RandomForestClassifier" />
+      <item itemvalue="Python.KNeighborsClassifier" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.KNeighborsClassifier" />
         <item itemvalue="Python.DBSCAN" />
         <item itemvalue="Python.RandomForestClassifier" />
         <item itemvalue="Python.euclidean_distances" />
         <item itemvalue="Python.roc_auc_score" />
-        <item itemvalue="Python.LinearDiscriminantAnalysis" />
       </list>
     </recent_temporary>
   </component>
@@ -471,7 +474,7 @@
     <frame x="-7" y="114" width="1160" height="708" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22958258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22958258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -642,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/neighbors/KNeighborsClassifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="68" column="50" lean-forward="true" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/naive_bayes/GaussianNB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -754,8 +750,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ensemble/RandomForestClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        <state relative-caret-position="286">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -764,11 +760,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cluster/DBSCAN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <marker date="1554128231806" expanded="true" signature="67:72" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neighbors/KNeighborsClassifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
