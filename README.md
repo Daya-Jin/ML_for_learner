@@ -39,10 +39,14 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 |Class|Approach|Code|
 |-|-|-|
 |[Model Selection](https://daya-jin.github.io/2018/12/11/Model_Assessment_and_Selection/)|Dataset Split|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/model_selection/train_test_split.py)|
-|[Metrics](https://daya-jin.github.io/2019/03/27/Evaluation_Metircs/)|Accuracy|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/accuracy_score.py)|
-||Log loss|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/log_loss.py)|
-||F1-score|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/f1_score.py)|
-||[AUC](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/AUC.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/roc_auc_score.py)|
+|[Metrics](https://daya-jin.github.io/2019/03/27/Evaluation_Metircs/)|Accuracy|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/Classification.py#L4)|
+||Log loss|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/Classification.py#L53)|
+||F1-score|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/Classification.py#L11)|
+||[AUC](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/AUC.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/Classification.py#L75)|
+||Explained Variance|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/Regression.py#L4)|
+||Mean Absolute Error|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/Regression.py#L9)|
+||Mean Squared Error|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/Regression.py#L14)|
+||$R^{2}$|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/Regression.py#L19)|
 ||[Euclidean Distances](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/pairwise/euclidean_distances.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/pairwise/euclidean_distances.py)|
 
 ## Preprocessing data
