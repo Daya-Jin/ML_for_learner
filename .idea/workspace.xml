@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="117aa67f-deb7-4f1a-afd8-3600c2185849" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/metrics/mean_squared_error.py" beforeDir="false" afterPath="$PROJECT_DIR$/metrics/mean_squared_error.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metrics/accuracy_score.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/metrics/explained_variance_score.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/metrics/f1_score.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/metrics/log_loss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/metrics/mean_squared_error.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/metrics/roc_auc_score.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +20,7 @@
     <SUITE FILE_PATH="coverage/ML_for_learner$test.coverage" NAME="test Coverage Results" MODIFIED="1545305051832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linear_model" />
     <SUITE FILE_PATH="coverage/ML_for_learner$DecisionTreeClassifier.coverage" NAME="DecisionTreeClassifier Coverage Results" MODIFIED="1553353435062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
     <SUITE FILE_PATH="coverage/ML_for_learner$train_test_split.coverage" NAME="train_test_split Coverage Results" MODIFIED="1553667397663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model_selection" />
+    <SUITE FILE_PATH="coverage/ML_for_learner$explained_variance_score.coverage" NAME="explained_variance_score Coverage Results" MODIFIED="1554213034735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/metrics" />
     <SUITE FILE_PATH="coverage/ML_for_learner$ID3.coverage" NAME="ID3 Coverage Results" MODIFIED="1552533161004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
     <SUITE FILE_PATH="coverage/ML_for_learner$GaussianMixture.coverage" NAME="GaussianMixture Coverage Results" MODIFIED="1552809321595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mixture" />
     <SUITE FILE_PATH="coverage/ML_for_learner$dataset.coverage" NAME="dataset Coverage Results" MODIFIED="1553656149280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datasets" />
@@ -80,50 +87,38 @@
         <counts>
           <entry key="LICENSE" value="2" />
           <entry key="ipynb" value="1" />
-          <entry key="py" value="94" />
+          <entry key="py" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="94" />
+          <entry key="Python" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7" />
           <entry key="dummy" value="10" />
-          <entry key="py" value="16144" />
+          <entry key="py" value="16333" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="16151" />
+          <entry key="Python" value="16340" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/metrics/mean_squared_error.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/metrics/explained_variance_score.py">
+        <entry file="file://$PROJECT_DIR$/metrics/Regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <marker date="1554212310242" expanded="true" signature="97:443" ph="..." />
-              </folding>
+            <state relative-caret-position="229">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -208,8 +203,10 @@
         <option value="$PROJECT_DIR$/cluster/DBSCAN.py" />
         <option value="$PROJECT_DIR$/neighbors/KNeighborsClassifier.py" />
         <option value="$PROJECT_DIR$/datasets/dataset.py" />
+        <option value="$PROJECT_DIR$/metrics/Classification.py" />
         <option value="$PROJECT_DIR$/metrics/mean_squared_error.py" />
         <option value="$PROJECT_DIR$/metrics/explained_variance_score.py" />
+        <option value="$PROJECT_DIR$/metrics/Regression.py" />
       </list>
     </option>
   </component>
@@ -220,8 +217,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="666" />
-    <option name="y" value="72" />
+    <option name="x" value="590" />
+    <option name="y" value="117" />
     <option name="width" value="1450" />
     <option name="height" value="885" />
   </component>
@@ -469,7 +466,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="533" y="58" width="1160" height="708" extended-state="0" />
+    <frame x="472" y="94" width="1160" height="708" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23865698" />
@@ -591,22 +588,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/metrics/accuracy_score.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model_selection/cross_val_score.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/metrics/f1_score.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ensemble/RandomForestRegressor.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -701,20 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/metrics/log_loss.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/metrics/roc_auc_score.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/metrics/pairwise/euclidean_distances.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -767,20 +736,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/metrics/accuracy_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="7" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metrics/f1_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metrics/log_loss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="22" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metrics/roc_auc_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="28" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metrics/Classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/metrics/mean_squared_error.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="67" />
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/metrics/explained_variance_score.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <marker date="1554212310242" expanded="true" signature="97:443" ph="..." />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metrics/Regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
