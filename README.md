@@ -33,6 +33,7 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 |Gaussian mixture models|[Gaussian Mixture](https://daya-jin.github.io/2019/03/15/Gaussian_Mixture_Models/)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/mixture/GaussianMixture.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/mixture/GaussianMixture.py)|
 |Clustering|[K-means](https://daya-jin.github.io/2018/09/22/KMeans/)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/cluster/KMeans.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/cluster/KMeans.py)|
 ||[DBSCAN](https://daya-jin.github.io/2018/08/06/DBSCAN/)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/cluster/DBSCAN.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/cluster/DBSCAN.py)|
+|[Association Rules](https://daya-jin.github.io/2018/12/30/AssociationRules/)|Apriori|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/rule/Apriori.ipynb)||
 
 ## Model selection and evaluation
 
@@ -56,6 +57,7 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 |[Feature Scaling](https://daya-jin.github.io/2019/03/20/Data_Scaling/)|StandardScaler|[notebook]()|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/preprocessing/StandardScaler.py)|
 ||MinMaxScaler|||
 |Unsupervised dimensionality reduction|PCA|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/decomposition/PCA.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/decomposition/PCA.py)|
+||SVD|[notebook]()|[code]()|
 |Supervised dimensionality reduction|[Linear Discriminant Analysis](https://daya-jin.github.io/2018/12/05/LinearDiscriminantAnalysis/)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/discriminant_analysis/LinearDiscriminantAnalysis.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/discriminant_analysis/LinearDiscriminantAnalysis.py)|
 
 ## Known Issues
