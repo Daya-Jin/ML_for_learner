@@ -10,7 +10,7 @@ class PCA:
     def fit(self, X):
         # 数据信息
         n_sample, n_feature = X.shape
-        if not self.n_components_:    # 如果未设置维数则设一个较大值
+        if not self.n_components_:  # 如果未设置维数则设一个较大值
             self.n_components_ = min(n_sample, n_feature) - 1
 
         self.covar = np.cov(X.T)
