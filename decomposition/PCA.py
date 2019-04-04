@@ -33,14 +33,27 @@ if __name__ == '__main__':
     X = data.data
     Y = data.target
 
+    import matplotlib.pyplot as plt
+
+    plt.scatter(X[:, 0], X[:, 1], c=Y)
+    plt.show()
+
     from preprocessing.StandardScaler import StandardScaler
 
     X = StandardScaler().fit_transform(X)
 
     pca = PCA(n_components=2)
-    X = pca.fit_transform(X)
+    X_trans = pca.fit_transform(X)
 
     import matplotlib.pyplot as plt
 
-    plt.scatter(X[:, 0], X[:, 1], c=Y)
+    plt.scatter(X_trans[:, 0], X_trans[:, 1], c=Y)
+    plt.show()
+
+    del pca
+    from sklearn.decomposition import PCA
+    sk_pca=PCA(n_components=2)
+    X_trans = sk_pca.fit_transform(X)
+
+    plt.scatter(X_trans[:, 0], X_trans[:, 1], c=Y)
     plt.show()

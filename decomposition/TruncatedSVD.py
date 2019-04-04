@@ -10,6 +10,8 @@ class TruncatedSVD:
 
     def fit(self, X):
         self.U, self.Sigma, self.VT = np.linalg.svd(X)
+        self.VT = self.VT.T  # 此句为修复语句，但不明白原因
+
         top_idx = np.argsort(self.Sigma)[::-1]
         self.Sigma = np.diag(self.Sigma)
         self.U = self.U[top_idx[:self.n_components], :]
@@ -24,16 +26,27 @@ class TruncatedSVD:
 
 
 if __name__ == '__main__':
-    from sklearn.datasets import make_circles
     import matplotlib.pyplot as plt
+    from datasets.dataset import load_wine
 
-    X, Y = make_circles(factor=0.5, random_state=0, noise=0.05)
+    data = load_wine()
+    X = data.data
+    Y = data.target
 
+    from preprocessing.StandardScaler import StandardScaler
+
+    X = StandardScaler().fit_transform(X)
     svd = TruncatedSVD()
     X_trans = svd.fit_transform(X)
 
-    fig, axs = plt.subplots(1, 2, figsize=(5, 5))
-    axs[0].scatter(X[:, 0], X[:, 1], c=Y)
-    axs[1].scatter(X_trans[:, 0], X_trans[:, 1], c=Y)
+    plt.scatter(X_trans[:, 0], X_trans[:, 1], c=Y)
+    plt.show()
 
+    del svd, X_trans
+    from sklearn.decomposition import TruncatedSVD
+
+    svd = TruncatedSVD(n_components=2)
+    X_trans = svd.fit_transform(X)
+
+    plt.scatter(X_trans[:, 0], X_trans[:, 1], c=Y)
     plt.show()
