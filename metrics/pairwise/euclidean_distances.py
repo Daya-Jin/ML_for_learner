@@ -2,6 +2,14 @@ import numpy as np
 
 
 def euclidean_distances(X, Y=None, Y_norm_squared=None, X_norm_squared=None):
+    '''
+    将数据的每行看做样本，计算两矩阵样本之间的欧氏距离
+    :param X: matrix one
+    :param Y: matrix two
+    :param Y_norm_squared:
+    :param X_norm_squared:
+    :return: pairwise距离矩阵
+    '''
     X = np.array(X)
     Y = np.array(Y) if Y else X  # 若未指定Y则令其为X
 
