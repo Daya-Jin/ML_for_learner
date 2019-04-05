@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="117aa67f-deb7-4f1a-afd8-3600c2185849" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/decomposition/.ipynb_checkpoints/SVD-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/decomposition/.ipynb_checkpoints/SVD-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decomposition/PCA.py" beforeDir="false" afterPath="$PROJECT_DIR$/decomposition/PCA.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/decomposition/SVD.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/decomposition/SVD.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decomposition/TruncatedSVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/decomposition/TruncatedSVD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommend/.ipynb_checkpoints/tmp-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommend/tmp.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,14 +68,14 @@
     <session id="1107530755">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="36" />
+          <entry key="project.closed" value="37" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="8" />
+          <entry key="project.open.time.5" value="9" />
           <entry key="project.open.time.6" value="17" />
           <entry key="project.open.time.7" value="6" />
-          <entry key="project.opened" value="38" />
+          <entry key="project.opened" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -116,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/decomposition/PCA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="418">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
@@ -125,8 +121,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/decomposition/TruncatedSVD.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+            <state relative-caret-position="269">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <marker date="1554364296063" expanded="true" signature="40:45" ph="..." />
               </folding>
@@ -230,8 +226,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-89" />
-    <option name="y" value="171" />
+    <option name="x" value="-292" />
+    <option name="y" value="133" />
     <option name="width" value="1450" />
     <option name="height" value="880" />
   </component>
@@ -343,6 +339,9 @@
       <module name="ML_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decomposition" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -362,6 +361,9 @@
       <module name="ML_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decomposition" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -479,10 +481,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-71" y="137" width="1160" height="704" extended-state="0" />
+    <frame x="-233" y="107" width="1160" height="704" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2522686" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2568058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -497,7 +499,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1575592" side_tool="true" weight="0.3252174" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3298611" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8424408" visible="true" weight="0.3257443" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8424408" weight="0.32517484" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -771,15 +773,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/decomposition/PCA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="418">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/decomposition/TruncatedSVD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+        <state relative-caret-position="269">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <marker date="1554364296063" expanded="true" signature="40:45" ph="..." />
           </folding>
