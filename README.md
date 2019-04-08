@@ -34,7 +34,7 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 |Clustering|[K-means](https://daya-jin.github.io/2018/09/22/KMeans/)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/cluster/KMeans.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/cluster/KMeans.py)|
 ||[DBSCAN](https://daya-jin.github.io/2018/08/06/DBSCAN/)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/cluster/DBSCAN.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/cluster/DBSCAN.py)|
 |[Association Rules](https://daya-jin.github.io/2018/12/30/AssociationRules/)|Apriori|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/rule/Apriori.ipynb)||
-|Collaborative Filtering|User-based|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/recommend/1.%20user_based_CF.ipynb)||
+|[Collaborative Filtering](https://daya-jin.github.io/2019/04/03/CollaborativeFiltering/)|User-based|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/recommend/1.%20user_based_CF.ipynb)||
 ||Item-based|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/recommend/2.%20item_based_CF.ipynb)||
 ||LFM|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/recommend/LFM.ipynb)||
 
