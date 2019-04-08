@@ -43,6 +43,8 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 |Class|Approach|Code|
 |-|-|-|
 |[Model Selection](https://daya-jin.github.io/2018/12/11/Model_Assessment_and_Selection/)|Dataset Split|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/model_selection/train_test_split.py)|
+||[K-Fold](https://github.com/Daya-Jin/ML_for_learner/blob/master/model_selection/KFold.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/model_selection/KFold.py)|
+||Stratified K-Fold|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/model_selection/StratifiedKFold.py)|
 |[Metrics](https://daya-jin.github.io/2019/03/27/Evaluation_Metircs/)|Accuracy|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/Classification.py#L4)|
 ||Log loss|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/Classification.py#L53)|
 ||F1-score|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/Classification.py#L11)|
@@ -57,8 +59,8 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 
 |Class|Algorithm|Implementation|Code|
 |-|-|-|-|
-|[Feature Scaling](https://daya-jin.github.io/2019/03/20/Data_Scaling/)|StandardScaler|[notebook]()|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/preprocessing/StandardScaler.py)|
-||MinMaxScaler|||
+|[Feature Scaling](https://daya-jin.github.io/2019/03/20/Data_Scaling/)|StandardScaler||[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/preprocessing/StandardScaler.py)|
+||MinMaxScaler||[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/preprocessing/MinMaxScaler.py)|
 |Unsupervised dimensionality reduction|PCA|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/decomposition/PCA.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/decomposition/PCA.py)|
 ||SVD|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/decomposition/SVD.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/decomposition/TruncatedSVD.py)|
 |Supervised dimensionality reduction|[Linear Discriminant Analysis](https://daya-jin.github.io/2018/12/05/LinearDiscriminantAnalysis/)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/discriminant_analysis/LinearDiscriminantAnalysis.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/discriminant_analysis/LinearDiscriminantAnalysis.py)|
@@ -70,3 +72,5 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 random forest没有实现并行。
 
 LDA代码存在功能欠缺。
+
+K-Fold代码中使用了```np.append()```，效率较低。
