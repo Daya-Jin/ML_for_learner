@@ -17,7 +17,7 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 ||[Logistic regression](https://daya-jin.github.io/2018/10/02/LogisticRegression/)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/linear_model/LogisticRegression.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/linear_model/LogisticRegression.py)|
 |[Nearest Neighbors](https://daya-jin.github.io/2018/12/29/KNearestNeighbor/)|Nearest Neighbors Classification|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/neighbors/KNN.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/neighbors/KNeighborsClassifier.py)|
 |[Naive Bayes](https://daya-jin.github.io/2018/10/04/NaiveBayes/)|Gaussian Naive Bayes|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/naive_bayes/Gaussian%20Naive%20Bayes.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/naive_bayes/GaussianNB.py)|
-|[Support Vector Machine](https://daya-jin.github.io/2018/10/17/SupportVectorMachine/)|SVC|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/svm/SMO.ipynb)||
+|[Support Vector Machine](https://daya-jin.github.io/2018/10/17/SupportVectorMachine/)|SVC|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/svm/SMO.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/svm/SVC.py)|
 |[Decision Trees](https://daya-jin.github.io/2018/08/10/DecisionTree/)|[ID3 Classification](https://daya-jin.github.io/2018/08/10/DecisionTree/#id3)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/tree/ID3_Clf.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/tree/ID3_Clf.py)|
 ||ID3 Regression|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/tree/ID3_Reg.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/tree/ID3_Reg.py)|
 ||[CART Classification](https://daya-jin.github.io/2018/08/10/DecisionTree/#classification-and-regression-tree)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/tree/DecisionTreeClassifier.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/tree/DecisionTreeClassifier.py)|
@@ -52,7 +52,7 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 ||Explained Variance|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/Regression.py#L4)|
 ||Mean Absolute Error|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/Regression.py#L9)|
 ||Mean Squared Error|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/Regression.py#L14)|
-||$R^{2}$|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/Regression.py#L19)|
+||R Square|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/Regression.py#L19)|
 ||[Euclidean Distances](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/pairwise/euclidean_distances.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/metrics/pairwise/euclidean_distances.py)|
 
 ## Preprocessing data
