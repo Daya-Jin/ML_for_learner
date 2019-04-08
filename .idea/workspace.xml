@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117aa67f-deb7-4f1a-afd8-3600c2185849" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/decomposition/.ipynb_checkpoints/SVD-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/decomposition/.ipynb_checkpoints/SVD-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decomposition/SVD.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/decomposition/SVD.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="117aa67f-deb7-4f1a-afd8-3600c2185849" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,36 +70,36 @@
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="9" />
-          <entry key="project.open.time.6" value="17" />
+          <entry key="project.open.time.6" value="18" />
           <entry key="project.open.time.7" value="6" />
-          <entry key="project.opened" value="39" />
+          <entry key="project.opened" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="2" />
           <entry key="ipynb" value="2" />
-          <entry key="py" value="108" />
+          <entry key="py" value="110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="108" />
+          <entry key="Python" value="110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7" />
           <entry key="dummy" value="10" />
-          <entry key="py" value="17197" />
+          <entry key="py" value="17732" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="17204" />
+          <entry key="Python" value="17739" />
         </counts>
       </usages-collector>
     </session>
@@ -110,21 +107,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decomposition/PCA.py">
+        <entry file="file://$PROJECT_DIR$/preprocessing/StandardScaler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="198">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/decomposition/TruncatedSVD.py">
+        <entry file="file://$PROJECT_DIR$/preprocessing/MinMaxScaler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="221">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
-                <marker date="1554364296063" expanded="true" signature="40:45" ph="..." />
+                <marker date="1554712318508" expanded="true" signature="40:45" ph="..." />
               </folding>
             </state>
           </provider>
@@ -216,6 +213,7 @@
         <option value="$PROJECT_DIR$/metrics/pairwise/euclidean_distances.py" />
         <option value="$PROJECT_DIR$/decomposition/PCA.py" />
         <option value="$PROJECT_DIR$/decomposition/TruncatedSVD.py" />
+        <option value="$PROJECT_DIR$/preprocessing/MinMaxScaler.py" />
       </list>
     </option>
   </component>
@@ -226,8 +224,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-292" />
-    <option name="y" value="133" />
+    <option name="x" value="572" />
+    <option name="y" value="92" />
     <option name="width" value="1450" />
     <option name="height" value="880" />
   </component>
@@ -256,6 +254,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,13 +265,12 @@
             <path>
               <item name="ML_for_learner" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML_for_learner" type="462c0819:PsiDirectoryNode" />
-              <item name="decomposition" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,21 +310,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TruncatedSVD">
-    <configuration name="LinearRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.MinMaxScaler">
+    <configuration name="MinMaxScaler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linear_model" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linear_model/LinearRegression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/MinMaxScaler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -446,19 +441,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.LinearRegression" />
       <item itemvalue="Python.PCA" />
       <item itemvalue="Python.mean_squared_error" />
       <item itemvalue="Python.explained_variance_score" />
       <item itemvalue="Python.TruncatedSVD" />
+      <item itemvalue="Python.MinMaxScaler" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MinMaxScaler" />
         <item itemvalue="Python.TruncatedSVD" />
         <item itemvalue="Python.PCA" />
         <item itemvalue="Python.explained_variance_score" />
         <item itemvalue="Python.mean_squared_error" />
-        <item itemvalue="Python.LinearRegression" />
       </list>
     </recent_temporary>
   </component>
@@ -481,10 +476,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-233" y="107" width="1160" height="704" extended-state="0" />
+    <frame x="458" y="74" width="1160" height="704" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2568058" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.261343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -499,7 +494,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1575592" side_tool="true" weight="0.3252174" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3298611" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8424408" weight="0.32517484" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8424408" weight="0.323993" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -530,18 +525,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="1073" selection-start-line="1073" selection-end-line="1073" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessing/StandardScaler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -771,19 +758,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decomposition/PCA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/decomposition/TruncatedSVD.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <marker date="1554364296063" expanded="true" signature="40:45" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decomposition/PCA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/StandardScaler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/MinMaxScaler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <marker date="1554712318508" expanded="true" signature="40:45" ph="..." />
           </folding>
         </state>
       </provider>
