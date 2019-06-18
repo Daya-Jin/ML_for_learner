@@ -64,10 +64,12 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 |Unsupervised dimensionality reduction|PCA|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/decomposition/PCA.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/decomposition/PCA.py)|
 ||SVD|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/decomposition/SVD.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/decomposition/TruncatedSVD.py)|
 |Supervised dimensionality reduction|[Linear Discriminant Analysis](https://daya-jin.github.io/2018/12/05/LinearDiscriminantAnalysis/)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/discriminant_analysis/LinearDiscriminantAnalysis.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/discriminant_analysis/LinearDiscriminantAnalysis.py)|
+|Text Feature|Bag of Word||[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/feature_extraction/text.py#L6)|
+||[TF-IDF]()||[code]()|
 
 ## Known Issues
 
-部分代码重用性较低。
+整体代码重用性较低。
 
 random forest没有实现并行。
 
