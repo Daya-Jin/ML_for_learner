@@ -1,6 +1,7 @@
 import numpy as np
 import re
 from collections import Counter
+from scipy import sparse
 
 
 class CountVectorizer:
@@ -42,6 +43,38 @@ class CountVectorizer:
 
     def get_feature_names(self):
         return list(self.tokens)
+
+
+class TfidfTransformer:
+    def __init__(self, norm='l2'):
+        '''
+        Transformer实际上只需要保存一个idf即可，因为tf是输入
+        :param norm:
+        '''
+        self.norm = norm
+
+        self.idf_vec = None
+
+    def fit(self, X):
+        '''
+
+        :param X: tf_arr，(n_word, n_document)
+        :return:
+        '''
+        X = sparse.csr_matrix(X)
+        n_D = X.shape[0]  # 文档数量
+        df_vec = (X != 0).sum(axis=0)  # 各单词的df，(voc_size,)
+        self.idf_vec = np.log((n_D + 1) / (df_vec + 1)) + 1  # 各单词的idf，(voc_size,)
+
+    def transform(self, X):
+        X = sparse.csr_matrix(X)
+        tfidf = X.multiply(self.idf_vec)
+        tfidf = tfidf.multiply(1 / np.sqrt(tfidf.power(2).sum(axis=1)))  # 归一化
+        return tfidf
+
+    def fit_transform(self, X):
+        self.fit(X)
+        return self.transform(X)
 
 
 if __name__ == '__main__':
