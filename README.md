@@ -65,7 +65,7 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 ||SVD|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/decomposition/SVD.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/decomposition/TruncatedSVD.py)|
 |Supervised dimensionality reduction|[Linear Discriminant Analysis](https://daya-jin.github.io/2018/12/05/LinearDiscriminantAnalysis/)|[notebook](https://github.com/Daya-Jin/ML_for_learner/blob/master/discriminant_analysis/LinearDiscriminantAnalysis.ipynb)|[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/discriminant_analysis/LinearDiscriminantAnalysis.py)|
 |Text Feature|Count Feature||[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/feature_extraction/text.py#L6)|
-||[TF-IDF]()||[code]()|
+||[TF-IDF]()||[code](https://github.com/Daya-Jin/ML_for_learner/blob/master/feature_extraction/text.py#L48)|
 
 ## Known Issues
 

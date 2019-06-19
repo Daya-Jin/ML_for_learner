@@ -69,7 +69,7 @@ class TfidfTransformer:
     def transform(self, X):
         X = sparse.csr_matrix(X)
         tfidf = X.multiply(self.idf_vec)
-        tfidf = tfidf.multiply(1 / np.sqrt(tfidf.power(2).sum(axis=1)))  # 归一化
+        tfidf = tfidf.multiply(1 / np.sqrt(tfidf.power(2).sum(axis=1)))  # 归一化，乘上倒数实现除法
         return tfidf
 
     def fit_transform(self, X):
