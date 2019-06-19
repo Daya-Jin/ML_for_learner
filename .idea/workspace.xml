@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117aa67f-deb7-4f1a-afd8-3600c2185849" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/feature_extraction/text.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/feature_extraction/text.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feature_extraction/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_extraction/text.py" afterDir="false" />
-    </list>
+    <list default="true" id="117aa67f-deb7-4f1a-afd8-3600c2185849" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,14 +65,14 @@
     <session id="1107530755">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="42" />
+          <entry key="project.closed" value="43" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="9" />
-          <entry key="project.open.time.6" value="19" />
+          <entry key="project.open.time.6" value="20" />
           <entry key="project.open.time.7" value="8" />
-          <entry key="project.opened" value="44" />
+          <entry key="project.opened" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -136,15 +133,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/feature_extraction/text.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="330">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <marker date="1560910671234" expanded="true" signature="110:115" ph="..." />
                 <marker date="1560910671234" expanded="true" signature="219:324" ph="..." />
                 <marker date="1560910671234" expanded="true" signature="1296:2094" ph="..." />
                 <marker date="1560910671234" expanded="true" signature="1585:1593" ph="..." />
-                <marker date="1560910671234" expanded="true" signature="1873:2011" ph="..." />
               </folding>
             </state>
           </provider>
@@ -253,8 +249,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="476" />
-    <option name="y" value="145" />
+    <option name="x" value="-25" />
+    <option name="y" value="143" />
     <option name="width" value="1450" />
     <option name="height" value="880" />
   </component>
@@ -283,7 +279,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,6 +290,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,7 +301,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bopomofo2Chs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -503,10 +499,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="381" y="116" width="1160" height="704" extended-state="0" />
-    <editor active="true" />
+    <frame x="-20" y="115" width="1160" height="704" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28039926" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2858439" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -820,15 +815,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/feature_extraction/text.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="330">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <marker date="1560910671234" expanded="true" signature="110:115" ph="..." />
             <marker date="1560910671234" expanded="true" signature="219:324" ph="..." />
             <marker date="1560910671234" expanded="true" signature="1296:2094" ph="..." />
             <marker date="1560910671234" expanded="true" signature="1585:1593" ph="..." />
-            <marker date="1560910671234" expanded="true" signature="1873:2011" ph="..." />
           </folding>
         </state>
       </provider>
