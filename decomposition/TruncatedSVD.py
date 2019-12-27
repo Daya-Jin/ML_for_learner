@@ -2,7 +2,7 @@ import numpy as np
 
 
 class TruncatedSVD:
-    def __init__(self, n_components=2):
+    def __init__(self, n_components: int = 2):
         self.n_components = n_components
         self.Sigma = None
         self.U = None

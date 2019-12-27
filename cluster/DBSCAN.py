@@ -3,7 +3,7 @@ from scipy.spatial import KDTree
 
 
 class DBSCAN:
-    def __init__(self, eps=0.5, min_samples=5):
+    def __init__(self, eps: float = 0.5, min_samples: int = 5):
         '''
         :param eps: 邻域距离
         :param min_samples: 形成类簇所需的最小样本数

@@ -2,7 +2,7 @@ import numpy as np
 
 
 class StratifiedKFold:
-    def __init__(self, n_splits=3, shuffle=False):
+    def __init__(self, n_splits: int = 3, shuffle: bool = False):
         self._K = n_splits
         self._shuffle = shuffle  # 洗牌标志
 

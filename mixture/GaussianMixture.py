@@ -3,7 +3,8 @@ import numpy as np
 
 
 class GaussianMixture:
-    def __init__(self, n_components=1, covariance_type='full', tol=0.001, reg_covar=1e-06, max_iter=100):
+    def __init__(self, n_components: int = 1, covariance_type: str = 'full',
+                 tol: float = 0.001, reg_covar: float = 1e-06, max_iter: int = 100):
         self.n_components = n_components
         self.means_ = None
         self.covariances_ = None

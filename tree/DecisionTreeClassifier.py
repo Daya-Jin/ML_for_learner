@@ -3,7 +3,8 @@ from scipy import stats  # 用于求众数
 
 
 class DecisionTreeClassifier:
-    def __init__(self, max_depth=None, min_samples_split=5, min_samples_leaf=5, min_impurity_decrease=0.0):
+    def __init__(self, max_depth: int = None, min_samples_split: int = 5,
+                 min_samples_leaf: int = 5, min_impurity_decrease: float = 0.0):
         '''
         :param min_samples_split: 分裂所需的最小样本数
         :param min_samples_leaf: 叶节点中的最小样本数
@@ -16,7 +17,7 @@ class DecisionTreeClassifier:
         self.tree = None
         self.__nodes = 0
 
-    def __Gini(self, data, y_idx=-1):
+    def __Gini(self, data, y_idx: int = -1):
         '''
         :param data:
         :param y_idx: 目标值在data中的列索引
@@ -24,11 +25,12 @@ class DecisionTreeClassifier:
         '''
         K = np.unique(data[:, y_idx])
         gini_idx = 1 - \
-                   np.sum([np.square(np.sum(data[data[:, y_idx] == k][:, -2]) / np.sum(data[:, -2])) for k in K])
+                   np.sum([np.square(np.sum(data[data[:, y_idx] == k][:, -2]) / np.sum(data[:, -2]))
+                           for k in K])
 
         return gini_idx
 
-    def __BinSplitData(self, data, f_idx, f_val):
+    def __BinSplitData(self, data, f_idx: int, f_val: float):
         '''
         划分数据集
         :param data:

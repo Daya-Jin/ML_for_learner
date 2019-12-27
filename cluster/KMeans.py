@@ -1,7 +1,8 @@
 import numpy as np
 
+
 class KMeans:
-    def __init__(self, n_clusters=8, init='k-means++', max_iter=300, tol=0.0001):
+    def __init__(self, n_clusters: int = 8, init: str = 'k-means++', max_iter: int = 300, tol: float = 0.0001):
         self.n_clusters = n_clusters
         self.init = init
         self.max_iter = max_iter

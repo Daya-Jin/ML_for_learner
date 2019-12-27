@@ -2,7 +2,7 @@ import numpy as np
 
 
 class MinMaxScaler:
-    def __init__(self, feature_range=(0, 1), copy=True):
+    def __init__(self, feature_range: tuple = (0, 1), copy: bool = True):
         '''
 
         :param feature_range: 缩放后的范围
@@ -31,6 +31,5 @@ class MinMaxScaler:
 if __name__ == '__main__':
     data = [[-1, 2], [-0.5, 6], [0, 10], [1, 18]]
     scaler = MinMaxScaler()
-    scaler.fit(data)
-    print(scaler.transform(data))
+    print(scaler.fit_transform(data))
     print(scaler.transform([[2, 2]]))

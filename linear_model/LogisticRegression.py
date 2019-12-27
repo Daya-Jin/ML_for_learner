@@ -2,7 +2,7 @@ import numpy as np
 
 
 class LogisticRegression:
-    def __init__(self, lr=0.0001, threshold=0.5, max_iter=2000):
+    def __init__(self, lr: float = 0.0001, threshold: float = 0.5, max_iter: int = 2000):
         self.lr = lr
         self.threshold = threshold
         self.max_iter = max_iter
@@ -39,10 +39,11 @@ class LogisticRegression:
         return np.squeeze(np.where(self.__sigmoid(np.dot(X_test, self.W) + self.b) > self.threshold, 1, 0))
 
 
-def ACC(Y_true,Y_pred):
-    return np.sum(Y_true==Y_pred)/len(Y_true)
+def ACC(Y_true, Y_pred):
+    return np.sum(Y_true == Y_pred) / len(Y_true)
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
     from datasets.dataset import load_breast_cancer
     from model_selection.train_test_split import train_test_split
 
@@ -52,9 +53,9 @@ if __name__=='__main__':
 
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
 
-    lr_model=LogisticRegression()
-    lr_model.fit(X_train,Y_train)
+    lr_model = LogisticRegression()
+    lr_model.fit(X_train, Y_train)
 
-    Y_pred=lr_model.predict(X_test)
+    Y_pred = lr_model.predict(X_test)
 
-    print('ACC:{}'.format(ACC(Y_test,Y_pred)))
+    print('ACC:{}'.format(ACC(Y_test, Y_pred)))

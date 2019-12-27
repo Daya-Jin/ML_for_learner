@@ -4,7 +4,8 @@ from scipy import stats  # 用于求众数
 
 
 class RandomForestClassifier:
-    def __init__(self, n_estimators=5, min_samples_split=5, min_samples_leaf=5, min_impurity_decrease=0.0):
+    def __init__(self, n_estimators: int = 5, min_samples_split: int = 5,
+                 min_samples_leaf: int = 5, min_impurity_decrease: float = 0.0):
         '''
         :param n_estimators: 子树的数量
         :param min_samples_split: 最小分割样本数，用于传递给子CART树

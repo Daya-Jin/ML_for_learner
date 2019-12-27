@@ -2,7 +2,7 @@ import numpy as np
 
 
 class PCA:
-    def __init__(self, n_components=None):
+    def __init__(self, n_components: int = None):
         self.n_components_ = n_components
         self.top_vec = None
         self.covar = None
@@ -52,7 +52,8 @@ if __name__ == '__main__':
 
     del pca
     from sklearn.decomposition import PCA
-    sk_pca=PCA(n_components=2)
+
+    sk_pca = PCA(n_components=2)
     X_trans = sk_pca.fit_transform(X)
 
     plt.scatter(X_trans[:, 0], X_trans[:, 1], c=Y)

@@ -16,7 +16,7 @@ class svm_data:
 
 
 class SVC:
-    def __init__(self, C=1.0, tol=0.001, max_iter=-1):
+    def __init__(self, C: float = 1.0, tol: float = 0.001, max_iter: int = -1):
         # 训练参数
         self.C = C
         self.tol = tol
@@ -28,17 +28,18 @@ class SVC:
         self.lambdas = None
         self.b = 0
 
-    def __compute_kth_err(self, k, DS):
+    def __compute_kth_err(self, k: int, DS):
         '''
         计算第k个训练样本的训练误差
         :param Y_train:
         :param k:
+        :param DS:
         :return:
         '''
         y_pred = np.dot((self.lambdas * self.Y_train).T, DS.K_mat[k, :]) + self.b
         return y_pred - self.Y_train[k]
 
-    def __update_kth_err(self, k, DS):
+    def __update_kth_err(self, k: int, DS):
         '''
         更新误差缓存
         :param Y_train:
@@ -86,10 +87,10 @@ class SVC:
 
     def __optimize_lambda(self, i, DS):
         '''
-        成对优化lambda的函数，返回值为表示是否做了优化的布尔值
+        成对优化lambda
         :param i:
         :param DS:
-        :return:
+        :return: 是否做过优化
         '''
         err_i = self.__compute_kth_err(i, DS)
         if (self.Y_train[i] * err_i < -self.tol and self.lambdas[i] < self.C) or (

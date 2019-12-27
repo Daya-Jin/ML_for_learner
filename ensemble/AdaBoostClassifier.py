@@ -3,14 +3,14 @@ from tree.DecisionTreeClassifier import DecisionTreeClassifier
 
 
 class AdaBoostClassifier:
-    def __init__(self, n_estimators=5):
+    def __init__(self, n_estimators: int = 5):
         self.n_estimators = n_estimators
         self.estimators_ = [DecisionTreeClassifier(max_depth=1) for _ in range(self.n_estimators)]  # 默认基模型为树
         self.estimator_weights_ = [None] * self.n_estimators
 
     def __update_w(self, w, Y_true, Y_pred):
         weight_err = np.sum(w * (Y_true != Y_pred)) / np.sum(w)  # 加权训练误差
-        alpha = np.log(1 / weight_err - 1)    # 根据加权误差计算模型权重
+        alpha = np.log(1 / weight_err - 1)  # 根据加权误差计算模型权重
         w = w * np.exp(alpha * (Y_true != Y_pred))
         w = w / np.sum(w)  # 归一化
 

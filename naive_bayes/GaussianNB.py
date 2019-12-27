@@ -18,10 +18,10 @@ class GaussianNB:
         uni_cls = np.unique(Y_train)
         m_feature = X_train.shape[1]
 
-        self.mean = np.array(
-            [X_train[np.where(Y_train == cls)].mean(axis=0) for cls in uni_cls])
-        self.std = np.array(
-            [X_train[np.where(Y_train == cls)].std(axis=0) for cls in uni_cls])
+        self.mean = np.array([X_train[np.where(Y_train == cls)].mean(axis=0)
+                              for cls in uni_cls])
+        self.std = np.array([X_train[np.where(Y_train == cls)].std(axis=0)
+                             for cls in uni_cls])
 
     # 训练函数，实质就是计算训练数据中的一些统计量
     def fit(self, X_train, Y_train):

@@ -3,7 +3,8 @@ from tree.DecisionTreeRegressor import DecisionTreeRegressor
 
 
 class RandomForestRegressor:
-    def __init__(self, n_estimators=5, min_samples_split=5, min_samples_leaf=5, min_impurity_decrease=0.0):
+    def __init__(self, n_estimators: int = 5, min_samples_split: int = 5,
+                 min_samples_leaf: int = 5, min_impurity_decrease: float = 0.0):
         '''
         :param n_estimators: 子树的数量
         :param min_samples_split: 最小分割样本数，用于传递给子CART树
@@ -54,7 +55,8 @@ class RandomForestRegressor:
 
     def predict(self, X_test):
         raw_pred = np.array([tree.predict(X_test) for tree in self.estimators_]).T
-        return np.mean(raw_pred,axis=1)
+        return np.mean(raw_pred, axis=1)
+
 
 if __name__ == '__main__':
     from datasets.dataset import load_boston

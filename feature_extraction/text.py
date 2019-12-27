@@ -2,6 +2,7 @@ import numpy as np
 import re
 from collections import Counter
 from scipy import sparse
+from typing import List
 
 
 class CountVectorizer:
@@ -9,19 +10,24 @@ class CountVectorizer:
         self.tokens = None
         self.vocabulary_ = None
 
-    def _clean(self, s):
+    def _clean(self, s: str):
+        '''
+        转小写并移除标点符号
+        :param s:
+        :return:
+        '''
         s = s.lower()  # 小写化
         s = re.sub(r"[^a-zA-Z0-9]", " ", s)  # 标点转空格
         return s
 
-    def fit(self, raw_documents):
+    def fit(self, raw_documents: List[str]):
         self.tokens = set()
         for s in raw_documents:
             self.tokens.update(self._clean(s).split())
         self.tokens = np.array(sorted(list(self.tokens)))
         self.vocabulary_ = dict(zip(self.tokens, [idx for idx in range(len(self.tokens))]))
 
-    def _string_vectorizer(self, s):
+    def _string_vectorizer(self, s: str):
         '''
         单个字串向量化
         :param s:
@@ -46,7 +52,7 @@ class CountVectorizer:
 
 
 class TfidfTransformer:
-    def __init__(self, norm='l2'):
+    def __init__(self, norm: str = 'l2'):
         '''
         Transformer实际上只需要保存一个idf即可，因为tf是输入
         :param norm:

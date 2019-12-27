@@ -2,7 +2,15 @@ import numpy as np
 
 
 class LinearRegression:
-    def __init__(self, lr=0.000001, mini_batch=None, batch_size=32, max_iter=2000):
+    def __init__(self, lr: float = 0.000001, mini_batch: bool = None,
+                 batch_size: int = 32, max_iter: int = 2000):
+        '''
+
+        :param lr:
+        :param mini_batch:
+        :param batch_size: 在mini_batch为True时有效
+        :param max_iter:
+        '''
         self.lr = lr
         self.mini_batch = mini_batch
         self.batch_size = batch_size

@@ -3,7 +3,7 @@ from scipy.spatial import KDTree
 
 
 class KNN:
-    def __init__(self, n_neighbors=5):
+    def __init__(self, n_neighbors: int = 5):
         self.Y_train = None
         self.k = n_neighbors
         self.kd_tree = None

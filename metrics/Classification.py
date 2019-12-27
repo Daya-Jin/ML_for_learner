@@ -8,7 +8,7 @@ def accuracy_score(Y_true, Y_pred, sample_weight=None):
     return np.sum((np.array(Y_true) == np.array(Y_pred)) * sample_weight)
 
 
-def f1_score(Y_true, Y_pred, average=None):
+def f1_score(Y_true, Y_pred, average: str = None):
     '''
     :param Y_true:
     :param Y_pred:
@@ -50,7 +50,7 @@ def f1_score(Y_true, Y_pred, average=None):
         return f1_scores
 
 
-def log_loss(Y_true, Y_pred, eps=1e-15):
+def log_loss(Y_true, Y_pred, eps: float = 1e-15):
     '''
     交叉熵计算函数
     :param Y_true:

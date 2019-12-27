@@ -2,7 +2,7 @@ import numpy as np
 
 
 class LinearDiscriminantAnalysis:
-    def __init__(self, n_components=2):
+    def __init__(self, n_components: int = 2):
         '''
 
         :param n_components: 降维的维数
@@ -45,26 +45,32 @@ class LinearDiscriminantAnalysis:
         self.fit(X_train, Y_train)
         return self.transform(X_train)
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
     from datasets.dataset import load_wine
+
     data = load_wine()
     X, Y = data.data, data.target
 
     from preprocessing.StandardScaler import StandardScaler
+
     X = StandardScaler().fit_transform(X)
 
     from model_selection.train_test_split import train_test_split
+
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
 
-    lda=LinearDiscriminantAnalysis(n_components=2)
-    X_trans=lda.fit_transform(X_train,Y_train)
+    lda = LinearDiscriminantAnalysis(n_components=2)
+    X_trans = lda.fit_transform(X_train, Y_train)
 
     import matplotlib.pyplot as plt
+
     plt.scatter(X_trans[:, 0], X_trans[:, 1], c=Y_train)
     plt.show()
 
     # 对比scikit-learn
     from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+
     lda = LinearDiscriminantAnalysis(n_components=2)
     X_trans = lda.fit_transform(X_train, Y_train)
     plt.clf()

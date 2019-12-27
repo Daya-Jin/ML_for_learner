@@ -1,7 +1,8 @@
 import numpy as np
 
 
-def train_test_split(*arrays, test_size=0.25, random_state=None, shuffle=False):
+def train_test_split(*arrays, test_size: float = 0.25,
+                     random_state: int = None, shuffle: bool = False):
     if not arrays or len(arrays) > 2:
         raise ValueError('params {} is illegal'.format(arrays))
 
@@ -15,9 +16,8 @@ def train_test_split(*arrays, test_size=0.25, random_state=None, shuffle=False):
 
     shuffle_idx = np.random.permutation(n_samples)
     if arr_2 is not None:
-        return arr_1[shuffle_idx][:train_samples], arr_1[shuffle_idx][train_samples:], arr_2[shuffle_idx][
-                                                                                       :train_samples], arr_2[
-                   shuffle_idx][train_samples:]
+        return (arr_1[shuffle_idx][:train_samples], arr_1[shuffle_idx][train_samples:],
+                arr_2[shuffle_idx][:train_samples], arr_2[shuffle_idx][train_samples:])
     else:
         return arr_1[shuffle_idx][:train_samples], arr_1[shuffle_idx][train_samples:]
 
