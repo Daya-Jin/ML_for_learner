@@ -24,7 +24,7 @@ class DecisionTreeClassifier:
         '''
         K = np.unique(data[:, y_idx])
         gini_idx = 1 - \
-                   np.sum([np.square(np.sum(data[data[:, y_idx] == k][:,-2]) / np.sum(data[:,-2])) for k in K])
+                   np.sum([np.square(np.sum(data[data[:, y_idx] == k][:, -2]) / np.sum(data[:, -2])) for k in K])
 
         return gini_idx
 
@@ -68,8 +68,8 @@ class DecisionTreeClassifier:
                     continue
 
                 # 分割后的加权Gini
-                Gini_after = np.sum(data_left[:,-2])/np.sum(data[:,-2]) * self.__Gini(data_left) + \
-                             np.sum(data_right[:,-2])/np.sum(data[:,-2]) * self.__Gini(data_right)
+                Gini_after = np.sum(data_left[:, -2]) / np.sum(data[:, -2]) * self.__Gini(data_left) + \
+                             np.sum(data_right[:, -2]) / np.sum(data[:, -2]) * self.__Gini(data_right)
                 gain = Gini_before - Gini_after  # Gini的减小量为增益
 
                 # 分裂后的增益小于阈值或小于目前最大增益则放弃分裂
@@ -126,14 +126,26 @@ class DecisionTreeClassifier:
             return tree
 
     def fit(self, X_train, Y_train, sample_weight=None):
+        '''
+        拟合模型
+        :param X_train: numpy.ndarray
+        :param Y_train: array
+        :param sample_weight:
+        :return: None
+        '''
         if sample_weight is None:
-            sample_weight=np.array([1 / len(X_train)] * len(X_train))
+            sample_weight = np.array([1 / len(X_train)] * len(X_train))
         else:
             sample_weight = sample_weight
         data = np.c_[X_train, sample_weight, Y_train]  # 权重为倒数第二列，目标值为最后一列
         self.tree = self.__CART(data)  # 生成CART树即完成训练
 
     def predict(self, X_test):
+        '''
+        模型推断
+        :param X_test: numpy.ndarray
+        :return:
+        '''
         return np.array([self.__predict_one(x_test, self.tree) for x_test in X_test])
 
 
@@ -155,7 +167,8 @@ if __name__ == '__main__':
     print('acc:{}'.format(np.sum(Y_pred == Y_test) / len(Y_test)))
 
     from sklearn.tree import DecisionTreeClassifier
-    tree_clf=DecisionTreeClassifier()
+
+    tree_clf = DecisionTreeClassifier()
     tree_clf.fit(X_train, Y_train)
     Y_pred = tree_clf.predict(X_test)
     print('sklearn acc:{}'.format(np.sum(Y_pred == Y_test) / len(Y_test)))

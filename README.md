@@ -9,6 +9,8 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 
 点击算法名称进入相应Blog了解算法理论，notebook指导如何step-by-step的去实现该算法，code为模块化的代码文件。
 
+注：除非特别说明，各模型所接受的数据格式均为```numpy.ndarray```格式，部分也可接受```List```或者嵌套```List```，除此之外的数据格式本人暂不保证。由于目前的Python type hint还不支持numpy，所以在代码中未说明(感谢微信昵称@Stream的提醒)。
+
 ## Supervised learning
 
 |Class|Algorithm|Implementation|Code|
