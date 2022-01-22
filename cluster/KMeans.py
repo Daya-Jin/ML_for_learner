@@ -88,7 +88,7 @@ if __name__ == '__main__':
     data_3 = np.random.randn(200, 2) + [7, 1]
     data = np.concatenate((data_1, data_2, data_3), axis=0)
 
-    from model_selection.train_test_split import train_test_split
+    from sklearn.model_selection import train_test_split
 
     X_train, X_test = train_test_split(data, test_size=0.2)
 
